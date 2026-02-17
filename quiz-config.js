@@ -2,9 +2,9 @@ window.quizConfig = {
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
-      titleHtml: "What is a <strong>Concerned Party</strong>?",
+      titleHtml: "<strong>What is a Concerned Party</strong>?",
       bodyHtml:
-        "<p>A <strong>Concerned Party</strong> is someone who receives your test results and helps support accountability.</p>" +
+        "<p>A Concerned Party is someone who receives your test results and helps support accountability.</p>" +
         "<p>This is often a co-parent, guardian, or attorney who plays a supportive role in your child’s wellbeing.</p>",
     },
   },
@@ -66,7 +66,7 @@ window.quizConfig = {
       options: [
         {
           value: "childCustody",
-          labelHtml: "Child <strong>Custody</strong>",
+          labelHtml: "Child Custody",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105e3b251bf554a158_child%20custody.png",
             alt: "Child custody",
@@ -74,7 +74,7 @@ window.quizConfig = {
         },
         {
           value: "sobriety",
-          labelHtml: "<strong>Sobriety</strong>",
+          labelHtml: "Sobriety",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12e28a4ae509b1f527_sobriety.png",
             alt: "Sobriety",
@@ -82,7 +82,7 @@ window.quizConfig = {
         },
         {
           value: "employment",
-          labelHtml: "<strong>Employment</strong>",
+          labelHtml: "Employment",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
             alt: "Employment",
@@ -90,7 +90,7 @@ window.quizConfig = {
         },
         {
           value: "marriageRelationship",
-          labelHtml: "Marriage/<strong>Relationship</strong>",
+          labelHtml: "Marriage/Relationship",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10e36776c1e40d98f8_marriage%20relationships.png",
             alt: "Relationship",
@@ -98,7 +98,7 @@ window.quizConfig = {
         },
         {
           value: "criminalJustice",
-          labelHtml: "<strong>Criminal Justice</strong>",
+          labelHtml: "Criminal Justice",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105c147f90eadeb96f_criminal%20justic.avif",
             alt: "Criminal justice",
@@ -129,7 +129,7 @@ window.quizConfig = {
     qA3_custody_context: {
       id: "qA3_custody_context",
       type: "singleChoice",
-      text: "We’ll tailor a plan that best fits your needs. Which option(s) feel most like your situation?",
+      text: "We’ll tailor a plan that best fits your needs. Which option feels most like your situation?",
       options: [
         {
           value: "proactiveGettingAhead",
@@ -237,12 +237,13 @@ window.quizConfig = {
       id: "qA7L2_notify_concernedOnly_submitter",
       type: "singleChoice",
       text: "How would you like your progress recognized?",
+      choiceLayout: "planCards",
       size: "lg",
       options: [
         {
           value: "emailNextDay",
           labelHtml:
-            "My test results will be emailed <strong>the next day</strong>.",
+            "My test results will be emailed <span class='u-bold'>the next day</span>.",
           metaHtml: "<div style='color: red;'>Basic Plan</div>",
           priceHtml: "$175/mo",
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
@@ -251,8 +252,8 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "My test results will be emailed <strong>in real-time</strong>.",
-          metaHtml: "<strong>Plus Plan</strong>",
+            "My test results will be emailed <span class='u-bold;'>in real-time</span>.",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$215/mo",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level2_plus",
@@ -260,14 +261,14 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "My test results will be emailed and texted <strong>in real-time</strong>.",
-          metaHtml: "<strong>Premium Plan</strong>",
+            "My test results will be emailed and texted <span class='u-bold;'>in real-time</span>.",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$265/mo",
           badge: {
-            label: "50% off Expert Testimony",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           icon: { url: "https://.../premium-icon.png", alt: "Premium" },
@@ -279,12 +280,13 @@ window.quizConfig = {
       id: "qA7L2_notify_manyContacts_submitter",
       type: "singleChoice",
       text: "How would you like your progress recognized?",
+      choiceLayout: "planCards",
       size: "lg",
       options: [
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time",
-          metaHtml: "<strong>Plus Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$215/mo",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level2_plus",
@@ -292,14 +294,14 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "My test results will be emailed and texted in real-time (includes 50% off Expert Testimony)",
-          metaHtml: "<strong>Premium Plan</strong>",
+            "My test results will be emailed and texted in real-time (includes 50% OFF EXPERT TESTIMONY)",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$265/mo",
           badge: {
-            label: "50% off Expert Testimony",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           nextId: "res_plan_level2_premium",
@@ -374,12 +376,13 @@ window.quizConfig = {
       id: "qA8L1_notify_concernedOnly_submitter",
       type: "singleChoice",
       text: "How would you like your progress recognized?",
+      choiceLayout: "planCards",
       size: "lg",
       options: [
         {
           value: "emailNextDay",
           labelHtml: "My test results will be emailed the next day",
-          metaHtml: "<strong>Basic Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Basic Plan</span>",
           priceHtml: "$135/mo",
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
           nextId: "res_plan_level1_basic",
@@ -387,7 +390,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real time",
-          metaHtml: "<strong>Plus Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$190/mo",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level1_plus",
@@ -396,13 +399,13 @@ window.quizConfig = {
           value: "emailTextRealtime",
           labelHtml:
             "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
-          metaHtml: "<strong>Premium Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$245/mo",
           badge: {
-            label: "50% off Expert Testimony",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           icon: { url: "https://.../premium-icon.png", alt: "Premium" },
@@ -415,11 +418,12 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How would you like your progress recognized?",
       size: "lg",
+      choiceLayout: "planCards",
       options: [
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real time",
-          metaHtml: "<strong>Plus Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$190/mo",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level1_plus",
@@ -428,14 +432,14 @@ window.quizConfig = {
           value: "emailTextRealtime",
           labelHtml:
             "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
-          metaHtml: "<strong>Premium Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$245/mo",
           icon: { url: "https://.../premium-icon.png", alt: "Premium" },
           badge: {
-            label: "50% off Expert Testimony",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           nextId: "res_plan_level1_premium",
@@ -475,11 +479,12 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How would you like your progress recognized?",
       size: "lg",
+      choiceLayout: "planCards",
       options: [
         {
           value: "emailNextDay",
           labelHtml: "My test results will be emailed the next day.",
-          metaHtml: "<strong>Basic Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Basic Plan</span>",
           priceHtml: "$170/mo",
           icon: { url: "https://.../basic-icon.png", alt: "basic" },
           nextId: "res_plan_share_basic",
@@ -487,7 +492,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
-          metaHtml: "<strong>Plus Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$215/mo",
           icon: { url: "https://.../plus-icon.png", alt: "plus" },
           nextId: "res_plan_share_plus",
@@ -495,13 +500,13 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed + texted in real time.",
-          metaHtml: "<strong>Premium Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$270/mo",
           badge: {
             label: "idk",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           icon: { url: "https://.../prem-icon.png", alt: "prem" },
@@ -513,25 +518,26 @@ window.quizConfig = {
       id: "qA4_share_notify_manyContacts_submitter",
       type: "singleChoice",
       size: "lg",
+      choiceLayout: "planCards",
       text: "How would you like your progress recognized?",
       options: [
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
-          metaHtml: "<strong>Plus Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
           priceHtml: "$215/mo",
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed and texted in real-time.",
-          metaHtml: "<strong>Premium Plan</strong>",
+          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
           priceHtml: "$270/mo",
           badge: {
             label: "idk",
             icon: {
-              url: "https://your-cdn.com/blue-star.png",
-              alt: "Special offer",
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
             },
           },
           nextId: "res_plan_share_premium",
