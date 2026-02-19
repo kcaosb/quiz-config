@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-02-17-1",
+  version: "2026-02-19-1",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -134,7 +134,7 @@ window.quizConfig = {
       options: [
         {
           value: "proactiveGettingAhead",
-          labelHtml: "I am getting ahead of the game - being proactive",
+          labelHtml: "I am getting ahead of the game",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10ef2493addcafbb32_icon%20ahead.png",
             alt: "arrow icon",
@@ -143,7 +143,7 @@ window.quizConfig = {
         },
         {
           value: "proactiveFalselyAccused",
-          labelHtml: "I am being falsely accused - being proactive",
+          labelHtml: "I am being falsely accused",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f1061c8412f197bf530_Accused.png",
             alt: "thumbs down",
@@ -174,10 +174,12 @@ window.quizConfig = {
       id: "qA4_testingFrequency_submitter",
       type: "singleChoice",
       text: "Experts suggest testing every day. Which option sounds most like you?",
+
       options: [
         {
           value: "everyDay",
-          labelHtml: "I am willing to test every day",
+          labelHtml:
+            "<span class='u-normal'>I am willing to</span> test every day",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
@@ -186,7 +188,8 @@ window.quizConfig = {
         },
         {
           value: "notEveryDay",
-          labelHtml: "I don’t need to test every day",
+          labelHtml:
+            "<span class='u-normal'>I</span> don’t need <span class='u-normal'>to</span> test every day",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
             alt: "calendar icon with only several days highlighted",
@@ -195,7 +198,8 @@ window.quizConfig = {
         },
         {
           value: "parentingDaysOnly",
-          labelHtml: "I only need to test on parenting days",
+          labelHtml:
+            "<span class='u-normal'>I</span> only <span class='u-normal'>need to</span> test on parenting days",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
             alt: "calendar icon with only several days highlighted",
@@ -208,8 +212,7 @@ window.quizConfig = {
       id: "qA6L2_shareScope_submitter",
       type: "singleChoice",
       introText:
-        "To keep everyone informed, your results must be shared with a “Concerned Party.”\n\n" +
-        "A “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in your child’s wellbeing.",
+        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/REPLACE/your-info-icon.png",
         alt: "More info",
@@ -244,9 +247,10 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "My test results will be emailed <span class='u-bold'>the next day</span>.",
-          metaHtml: "<div style='color: red;'>Basic Plan</div>",
-          priceHtml: "$175/mo",
+            "My test results will be emailed <span class='u-bold;'>the next day</span>.",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceHtml: "$175<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
           nextId: "res_plan_level2_basic",
         },
@@ -254,8 +258,9 @@ window.quizConfig = {
           value: "emailRealtime",
           labelHtml:
             "My test results will be emailed <span class='u-bold;'>in real-time</span>.",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$215/mo",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level2_plus",
         },
@@ -263,8 +268,9 @@ window.quizConfig = {
           value: "emailTextRealtime",
           labelHtml:
             "My test results will be emailed and texted <span class='u-bold;'>in real-time</span>.",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$265/mo",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceHtml: "$265<span style='font-size: 12px;'>/mo</span>",
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -347,8 +353,7 @@ window.quizConfig = {
       id: "qA7L1_shareScope_submitter",
       type: "singleChoice",
       introText:
-        "To keep everyone informed, your results must be shared with a “Concerned Party.”\n\n" +
-        "A “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in your child’s wellbeing.",
+        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/REPLACE/your-info-icon.png",
         alt: "More info",
@@ -383,16 +388,18 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml: "My test results will be emailed the next day",
-          metaHtml: "<span class='u-bold;'>Basic Plan</span>",
-          priceHtml: "$135/mo",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceHtml: "$135<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
           nextId: "res_plan_level1_basic",
         },
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real time",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$190/mo",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceHtml: "$190<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level1_plus",
         },
@@ -400,8 +407,9 @@ window.quizConfig = {
           value: "emailTextRealtime",
           labelHtml:
             "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$245/mo",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceHtml: "$245<span style='font-size: 12px;'>/mo</span>",
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -485,24 +493,27 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml: "My test results will be emailed the next day.",
-          metaHtml: "<span class='u-bold;'>Basic Plan</span>",
-          priceHtml: "$170/mo",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceHtml: "$170<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../basic-icon.png", alt: "basic" },
           nextId: "res_plan_share_basic",
         },
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$215/mo",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
           icon: { url: "https://.../plus-icon.png", alt: "plus" },
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed + texted in real time.",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$270/mo",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
+          priceHtml: "$270<span style='font-size: 12px;'>/mo</span>",
           badge: {
             label: "idk",
             icon: {
