@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-02-19-1",
+  version: "2026-02-19-2",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -226,13 +226,14 @@ window.quizConfig = {
       options: [
         {
           value: "concernedOnly",
-          labelHtml: "I need my results shared with my Concerned Party only",
+          labelHtml:
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party only",
           nextId: "qA7L2_notify_concernedOnly_submitter",
         },
         {
           value: "concernedAndOthers",
           labelHtml:
-            "I need my results shared with my Concerned Party and other contacts.",
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party and <span class='u-normal'>other</span> contacts.",
           nextId: "qA7L2_notify_manyContacts_submitter",
         },
       ],
@@ -247,7 +248,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "My test results will be emailed <span class='u-bold;'>the next day</span>.",
+            "<span class='u-normal;>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceHtml: "$175<span style='font-size: 12px;'>/mo</span>",
@@ -257,7 +258,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "My test results will be emailed <span class='u-bold;'>in real-time</span>.",
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
@@ -267,7 +268,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "My test results will be emailed and texted <span class='u-bold;'>in real-time</span>.",
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceHtml: "$265<span style='font-size: 12px;'>/mo</span>",
@@ -367,13 +368,14 @@ window.quizConfig = {
       options: [
         {
           value: "concernedOnly",
-          labelHtml: "I need my results shared with my Concerned Party only",
+          labelHtml:
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party only",
           nextId: "qA8L1_notify_concernedOnly_submitter",
         },
         {
           value: "concernedAndOthers",
           labelHtml:
-            "I need my results shared with my Concerned Party and other contacts.",
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party and <span class='u-normal'>other</span> contacts.",
           nextId: "qA8L1_notify_manyContacts_submitter",
         },
       ],
@@ -387,7 +389,8 @@ window.quizConfig = {
       options: [
         {
           value: "emailNextDay",
-          labelHtml: "My test results will be emailed the next day",
+          labelHtml:
+            "<span class='u-normal;>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceHtml: "$135<span style='font-size: 12px;'>/mo</span>",
@@ -396,7 +399,8 @@ window.quizConfig = {
         },
         {
           value: "emailRealtime",
-          labelHtml: "My test results will be emailed in real time",
+          labelHtml:
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceHtml: "$190<span style='font-size: 12px;'>/mo</span>",
@@ -406,7 +410,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceHtml: "$245<span style='font-size: 12px;'>/mo</span>",
@@ -492,7 +496,8 @@ window.quizConfig = {
       options: [
         {
           value: "emailNextDay",
-          labelHtml: "My test results will be emailed the next day.",
+          labelHtml:
+            "<span class='u-normal;>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceHtml: "$170<span style='font-size: 12px;'>/mo</span>",
@@ -501,7 +506,8 @@ window.quizConfig = {
         },
         {
           value: "emailRealtime",
-          labelHtml: "My test results will be emailed in real-time.",
+          labelHtml:
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
@@ -510,7 +516,8 @@ window.quizConfig = {
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "My test results will be emailed + texted in real time.",
+          labelHtml:
+            "<span class='u-normal;>My</span> test results <span class='u-normal;>will be</span> emailed <span class='u-normal;>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceHtml: "$270<span style='font-size: 12px;'>/mo</span>",
@@ -700,17 +707,20 @@ window.quizConfig = {
       options: [
         {
           value: "emailNextDay",
-          labelHtml: "I want the test results emailed to me the next day",
+          labelHtml:
+            "<span class='u-normal;>I want the </span>test results emailed to me the next day",
           nextId: "res_plan_level1_basic",
         },
         {
           value: "emailRealtime",
-          labelHtml: "I want the test results emailed in real time",
+          labelHtml:
+            "<span class='u-normal;>I want the</span> test results emailed in real time",
           nextId: "res_plan_level1_plus",
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "I want the test results emailed and texts in real time",
+          labelHtml:
+            "<span class='u-normal;>I want the</span> test results emailed and texts in real time",
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -776,17 +786,20 @@ window.quizConfig = {
       options: [
         {
           value: "emailNextDay",
-          labelHtml: "I want the test results emailed to me the next day.",
+          labelHtml:
+            "<span class='u-normal;>I want the </span>test results emailed to me the next day",
           nextId: "res_plan_share_basic",
         },
         {
           value: "emailRealtime",
-          labelHtml: "I want the test results emailed in real-time",
+          labelHtml:
+            "<span class='u-normal;>I want the</span> test results emailed in real tim",
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "I want the test results emailed and texted in real-time.",
+          labelHtml:
+            "<span class='u-normal;>I want the</span> test results emailed and texts in real time",
           nextId: "res_plan_share_premium",
         },
       ],
@@ -884,7 +897,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
-      text: "We’ve selected a plan for you: Level 2 Basic.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_level2_plus: {
@@ -893,7 +906,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
-      text: "We’ve selected a plan for you: Level 2 Plus.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_level2_premium: {
@@ -902,7 +915,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
-      text: "We’ve selected a plan for you: Level 2 Premium.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_level2_generic_receiver: {
@@ -929,7 +942,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
-      text: "We’ve selected a plan for you: Level 1 Plus.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_level1_premium: {
@@ -938,7 +951,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
-      text: "We’ve selected a plan for you: Level 1 Premium.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_share_basic: {
@@ -947,7 +960,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Basic",
-      text: "We’ve selected a plan for you: Share Basic.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_share_plus: {
@@ -956,7 +969,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Plus",
-      text: "We’ve selected a plan for you: Share Plus.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_plan_share_premium: {
@@ -965,7 +978,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Premium",
-      text: "We’ve selected a plan for you: Share Premium.\n\nNow, let’s select your device.",
+      text: "Now, let’s select your device.",
       nextId: "postPlan_router",
     },
     res_generic_contact: {
