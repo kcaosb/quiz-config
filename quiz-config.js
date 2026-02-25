@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-02-25",
+  version: "2026-02-25-1",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -251,7 +251,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
-          priceHtml: "$175<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "basic",
+            cadence: "mo",
+          },
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
           nextId: "res_plan_level2_basic",
         },
@@ -261,7 +266,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
-          priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "plus",
+            cadence: "mo",
+          },
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level2_plus",
         },
@@ -271,7 +281,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
-          priceHtml: "$265<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "premium",
+            cadence: "mo",
+          },
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -295,7 +310,12 @@ window.quizConfig = {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time",
           metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$215/mo",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "plus",
+            cadence: "mo",
+          },
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level2_plus",
         },
@@ -304,7 +324,12 @@ window.quizConfig = {
           labelHtml:
             "My test results will be emailed and texted in real-time (includes 50% OFF EXPERT TESTIMONY)",
           metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$265/mo",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "premium",
+            cadence: "mo",
+          },
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -393,7 +418,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
-          priceHtml: "$135<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "basic",
+            cadence: "mo",
+          },
           icon: { url: "https://.../mail-icon.png", alt: "Email" },
           nextId: "res_plan_level1_basic",
         },
@@ -403,7 +433,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
-          priceHtml: "$190<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "plus",
+            cadence: "mo",
+          },
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level1_plus",
         },
@@ -413,7 +448,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
-          priceHtml: "$245<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "premium",
+            cadence: "mo",
+          },
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -437,7 +477,12 @@ window.quizConfig = {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real time",
           metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$190/mo",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "plus",
+            cadence: "mo",
+          },
           icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
           nextId: "res_plan_level1_plus",
         },
@@ -446,7 +491,12 @@ window.quizConfig = {
           labelHtml:
             "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
           metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$245/mo",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "premium",
+            cadence: "mo",
+          },
           icon: { url: "https://.../premium-icon.png", alt: "Premium" },
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
@@ -500,7 +550,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
-          priceHtml: "$170<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "basic",
+            cadence: "mo",
+          },
           icon: { url: "https://.../basic-icon.png", alt: "basic" },
           nextId: "res_plan_share_basic",
         },
@@ -510,7 +565,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
-          priceHtml: "$215<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "plus",
+            cadence: "mo",
+          },
           icon: { url: "https://.../plus-icon.png", alt: "plus" },
           nextId: "res_plan_share_plus",
         },
@@ -520,7 +580,12 @@ window.quizConfig = {
             "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
-          priceHtml: "$270<span style='font-size: 12px;'>/mo</span>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "premium",
+            cadence: "mo",
+          },
           badge: {
             label: "idk",
             icon: {
@@ -544,14 +609,24 @@ window.quizConfig = {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
           metaHtml: "<span class='u-bold;'>Plus Plan</span>",
-          priceHtml: "$215/mo",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "plus",
+            cadence: "mo",
+          },
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed and texted in real-time.",
           metaHtml: "<span class='u-bold;'>Premium Plan</span>",
-          priceHtml: "$270/mo",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "premium",
+            cadence: "mo",
+          },
           badge: {
             label: "idk",
             icon: {
@@ -825,11 +900,15 @@ window.quizConfig = {
     qDeviceIntro_generic: {
       id: "qDeviceIntro_generic",
       type: "info",
-      text:
-        "Your Monitored Client will be able to choose their Device.\n\n" +
-        "Devices start at $19/mo to rent or $549 to buy.\n\n" +
-        "Soberlink is the ultimate investment in safety and trust - because peace of mind is priceless.\n\n" +
+      textHtml:
+        "Your Monitored Client will be able to choose their Device.<br><br>" +
+        "Devices start at {RENT_START}/mo to rent or {BUY_START} to buy.<br><br>" +
+        "Soberlink is the ultimate investment in safety and trust - because peace of mind is priceless.<br><br>" +
         "Device - Monitored Client to Choose",
+      textTokens: {
+        RENT_START: { kind: "deviceMin", commitment: "rent 365" },
+        BUY_START: { kind: "deviceMin", commitment: "buy" },
+      },
       primaryCta: { label: "Continue", nextId: "qD1_paymentPreference" },
     },
     qD1_paymentPreference: {
@@ -840,13 +919,15 @@ window.quizConfig = {
         {
           value: "own",
           labelHtml:
-            "Own my device starting at $549 (one-time purchase, higher upfront cost, no minimum plan commitment required)",
+            "Own my device starting at {PRICE} (one-time purchase, higher upfront cost, no minimum plan commitment required)",
+          priceRef: { kind: "deviceMin", commitment: "buy" },
           nextId: "qD2_own_chooseDevice",
         },
         {
           value: "rent",
           labelHtml:
-            "Rent my device starting at $19/mo (low monthly payment, no upfront device costs, requires a monitoring plan)",
+            "Rent my device starting at {PRICE}/mo (low monthly payment, no upfront device costs, requires a monitoring plan)",
+          priceRef: { kind: "deviceMin", commitment: "rent 365" },
           nextId: "qD2_rent_monitorDuration",
         },
       ],
@@ -863,7 +944,7 @@ window.quizConfig = {
           nextId: "res_final_own_connect",
         },
         {
-          value: "cellular2",
+          value: "cellular 2",
           labelHtml:
             "Cellular 2 – All-in-one device uses cellular data to transmit test results. No smartphone required.",
           nextId: "res_final_own_cellular2",
@@ -878,13 +959,23 @@ window.quizConfig = {
         {
           value: "oneYear",
           labelHtml:
-            "I plan to monitor for at least one year. $19/mo device. Requires a 365-day Monitoring Commitment.",
+            "I plan to monitor for at least one year. {PRICE}/mo device. Requires a 365-day Monitoring Commitment.",
+          priceRef: {
+            kind: "device",
+            device: "connect",
+            commitment: "rent 365",
+          },
           nextId: "res_final_rent_connect_19_365",
         },
         {
           value: "fourMonths",
           labelHtml:
-            "I plan to monitor for at least 4 months. $29/mo device. Requires 120-Day Monitoring Commitment.",
+            "I plan to monitor for at least 4 months. {PRICE}/mo device. Requires 120-Day Monitoring Commitment.",
+          priceRef: {
+            kind: "device",
+            device: "connect",
+            commitment: "rent 120",
+          },
           nextId: "res_final_rent_connect_29_120",
         },
       ],
@@ -1014,7 +1105,13 @@ window.quizConfig = {
       device: "Connect",
       ownership: "own",
       pricing: {
-        devicePrice: "starting at $549 (one-time purchase)",
+        devicePriceRef: {
+          kind: "device",
+          device: "connect",
+          commitment: "buy",
+        },
+        devicePricePrefix: "starting at ",
+        devicePriceSuffix: " (one-time purchase)",
         commitment: "no minimum plan commitment required",
       },
       text:
@@ -1034,7 +1131,13 @@ window.quizConfig = {
       device: "Cellular 2",
       ownership: "own",
       pricing: {
-        devicePrice: "starting at $549 (one-time purchase)",
+        devicePriceRef: {
+          kind: "device",
+          device: "cellular 2",
+          commitment: "buy",
+        },
+        devicePricePrefix: "starting at ",
+        devicePriceSuffix: " (one-time purchase)",
         commitment: "no minimum plan commitment required",
       },
       text:
@@ -1054,7 +1157,12 @@ window.quizConfig = {
       device: "Connect",
       ownership: "rent",
       pricing: {
-        monthly: "$19/mo",
+        monthlyRef: {
+          kind: "device",
+          device: "connect",
+          commitment: "rent 365",
+          cadence: "mo",
+        },
         commitment: "365-day monitoring commitment",
       },
       text:
@@ -1074,7 +1182,12 @@ window.quizConfig = {
       device: "Connect",
       ownership: "rent",
       pricing: {
-        monthly: "$29/mo",
+        monthlyRef: {
+          kind: "device",
+          device: "connect",
+          commitment: "rent 120",
+          cadence: "mo",
+        },
         commitment: "120-day monitoring commitment",
       },
       text:
