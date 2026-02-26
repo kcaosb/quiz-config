@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-02-25-1",
+  version: "2026-02-25-2",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -51,7 +51,7 @@ window.quizConfig = {
       rules: [
         {
           whenEquals: { nodeId: "q1_useCase", value: "submitTests" },
-          nextId: "qDeviceIntro_generic",
+          nextId: "qD1_paymentPreference",
         },
         {
           whenEquals: { nodeId: "q1_useCase", value: "receiveResults" },
