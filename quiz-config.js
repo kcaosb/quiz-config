@@ -937,17 +937,35 @@ window.quizConfig = {
       id: "qD2_own_chooseDevice",
       type: "singleChoice",
       text: "Choose your device.",
+      choiceLayout: "buyDeviceCards",
+      size: "xlg",
       options: [
         {
           value: "connect",
-          labelHtml:
-            "Connect – Bluetooth device uses smartphone to transmit test results. Smartphone pairing required.",
+          labelHtml: "Connect",
+          metaHtml: "Connect",
+          subMetaHtml: "No minimum monitoring commitment required",
+          descHtml:
+            "Bluetooth device uses smartphone to transmit test results.<br>Smartphone pairing required.",
+          priceRef: { kind: "device", device: "connect", commitment: "buy" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+            alt: "Connect",
+          },
           nextId: "res_final_own_connect",
         },
         {
           value: "cellular 2",
-          labelHtml:
-            "Cellular 2 – All-in-one device uses cellular data to transmit test results. No smartphone required.",
+          labelHtml: "Cellular 2",
+          metaHtml: "Cellular 2",
+          subMetaHtml: "No minimum monitoring commitment required",
+          descHtml:
+            "All-in-one device uses cellular data to transmit test results.<br>No smartphone required.",
+          priceRef: { kind: "device", device: "cellular 2", commitment: "buy" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
+            alt: "Cellular 2",
+          },
           nextId: "res_final_own_cellular2",
         },
       ],
@@ -956,7 +974,7 @@ window.quizConfig = {
       id: "qD2_rent_monitorDuration",
       type: "singleChoice",
       text: "How long do you plan on using Soberlink? Pay less by monitoring longer.",
-      choiceLayout: "deviceCards",
+      choiceLayout: "rentDeviceCards",
       size: "xlg",
       options: [
         {
