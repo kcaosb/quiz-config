@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-02-25-2",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -917,18 +917,18 @@ window.quizConfig = {
       text: "Which payment method do you prefer?",
       options: [
         {
-          value: "own",
-          labelHtml:
-            "Own my device starting at {PRICE} (one-time purchase, higher upfront cost, no minimum plan commitment required)",
-          priceRef: { kind: "deviceMin", commitment: "buy" },
-          nextId: "qD2_own_chooseDevice",
-        },
-        {
           value: "rent",
           labelHtml:
-            "Rent my device starting at {PRICE}/mo (low monthly payment, no upfront device costs, requires a monitoring plan)",
+            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><br/><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           nextId: "qD2_rent_monitorDuration",
+        },
+        {
+          value: "own",
+          labelHtml:
+            "Own My Device <span class='u-normal'>from</span> {PRICE} <ul><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
+          priceRef: { kind: "deviceMin", commitment: "buy" },
+          nextId: "qD2_own_chooseDevice",
         },
       ],
     },
