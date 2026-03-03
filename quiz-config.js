@@ -539,7 +539,8 @@ window.quizConfig = {
       options: [
         {
           value: "oneContact",
-          labelHtml: "I need my results shared with one contact",
+          labelHtml:
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'> with</span> one contact",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
             alt: "one person",
@@ -548,7 +549,8 @@ window.quizConfig = {
         },
         {
           value: "moreThanOneContact",
-          labelHtml: "I need my results shared with more than one Contact.",
+          labelHtml:
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with</span> more than one Contact.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
             alt: "two people",
@@ -591,6 +593,13 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
+          badge: {
+            label: "MOST POPULAR",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
           icon: { url: "https://.../plus-icon.png", alt: "plus" },
           nextId: "res_plan_share_plus",
         },
@@ -605,13 +614,6 @@ window.quizConfig = {
             program: "share",
             tier: "premium",
             cadence: "mo",
-          },
-          badge: {
-            label: "idk",
-            icon: {
-              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
-              alt: "star icon",
-            },
           },
           icon: { url: "https://.../prem-icon.png", alt: "prem" },
           nextId: "res_plan_share_premium",
