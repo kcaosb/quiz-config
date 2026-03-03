@@ -915,6 +915,7 @@ window.quizConfig = {
       id: "qD1_paymentPreference",
       type: "singleChoice",
       text: "Which payment method do you prefer?",
+      size: "xlg",
       options: [
         {
           value: "rent",
@@ -956,7 +957,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How long do you plan on using Soberlink? Pay less by monitoring longer.",
       choiceLayout: "deviceCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "oneYear",
@@ -969,7 +970,7 @@ window.quizConfig = {
               alt: "info",
             },
           },
-          metaHtml: "Connect Device",
+          metaHtml: "<div style='font-size: 16px;'>Connect Device</div>",
           subMetaHtml: "Requires a 365-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
@@ -987,7 +988,7 @@ window.quizConfig = {
           value: "fourMonths",
           labelHtml:
             "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> 4 months.",
-          metaHtml: "Connect Device",
+          metaHtml: "<div style='font-size: 16px;'>Connect Device</div>",
           subMetaHtml: "Requires a 120-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
