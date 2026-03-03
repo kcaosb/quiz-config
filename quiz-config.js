@@ -1058,6 +1058,8 @@ window.quizConfig = {
       program: "Level 2",
       plan: "Basic",
       text: "Now, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level2_plus: {
@@ -1067,6 +1069,8 @@ window.quizConfig = {
       program: "Level 2",
       plan: "Plus",
       text: "Now, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level2_premium: {
@@ -1076,6 +1080,8 @@ window.quizConfig = {
       program: "Level 2",
       plan: "Premium",
       text: "Now, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level2_generic_receiver: {
@@ -1085,6 +1091,8 @@ window.quizConfig = {
       program: "Level 2",
       plan: "Plus",
       text: "We’ve selected a Level 2 Program for your Monitored Client.\n\nNow, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level1_basic: {
@@ -1094,6 +1102,8 @@ window.quizConfig = {
       program: "Level 1",
       plan: "Basic",
       text: "We’ve selected a plan for you: Level 1 Basic.\n\nNow, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level1_plus: {
@@ -1103,6 +1113,8 @@ window.quizConfig = {
       program: "Level 1",
       plan: "Plus",
       text: "Now, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_level1_premium: {
@@ -1112,6 +1124,8 @@ window.quizConfig = {
       program: "Level 1",
       plan: "Premium",
       text: "Now, let’s select your device.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       nextId: "postPlan_router",
     },
     res_plan_share_basic: {
@@ -1121,6 +1135,7 @@ window.quizConfig = {
       program: "Share",
       plan: "Basic",
       text: "Now, let’s select your device.",
+      imageUrl: "https://cdn.../level2-plus.png",
       nextId: "postPlan_router",
     },
     res_plan_share_plus: {
@@ -1130,6 +1145,7 @@ window.quizConfig = {
       program: "Share",
       plan: "Plus",
       text: "Now, let’s select your device.",
+      imageUrl: "https://cdn.../level2-plus.png",
       nextId: "postPlan_router",
     },
     res_plan_share_premium: {
@@ -1139,6 +1155,7 @@ window.quizConfig = {
       program: "Share",
       plan: "Premium",
       text: "Now, let’s select your device.",
+      imageUrl: "https://cdn.../level2-plus.png",
       nextId: "postPlan_router",
     },
     res_generic_contact: {
