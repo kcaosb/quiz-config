@@ -5,8 +5,30 @@ window.quizConfig = {
     concernedPartyInfo: {
       titleHtml: "<strong>What is a Concerned Party</strong>?",
       bodyHtml:
-        "<p>A Concerned Party is someone who receives your test results and helps support accountability.</p>" +
-        "<p>This is often a co-parent, guardian, or attorney who plays a supportive role in your child’s wellbeing.</p>",
+        "A <span class='u-bold'>“Concerned Party,” often</span> a co-parent, guardian, or attorney, is <span class='u-bold'>someone who helps play a supportive role</span> in the child’s wellbeing.",
+      items: [
+        {
+          img: {
+            url: "https://.../coparent.png",
+            alt: "Co-parent",
+          },
+          labelHtml: "Co-parent",
+        },
+        {
+          img: {
+            url: "https://.../guardian.png",
+            alt: "Guardian",
+          },
+          labelHtml: "Guardian",
+        },
+        {
+          img: {
+            url: "https://.../attorney.png",
+            alt: "Attorney",
+          },
+          labelHtml: "Attorney",
+        },
+      ],
     },
   },
   nodes: {
