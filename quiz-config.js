@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-03-2",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -914,20 +914,19 @@ window.quizConfig = {
     qD1_paymentPreference: {
       id: "qD1_paymentPreference",
       type: "singleChoice",
-      size: "xlg",
       text: "Which payment method do you prefer?",
       options: [
         {
           value: "rent",
           labelHtml:
-            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul class='u-normal;'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
+            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul class='u-normal'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           nextId: "qD2_rent_monitorDuration",
         },
         {
           value: "own",
           labelHtml:
-            "Own My Device <span class='u-normal'>from</span> {PRICE} <ul class='u-normal;'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
+            "Own My Device <span class='u-normal'>from</span> {PRICE} <ul class='u-normal'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
           priceRef: { kind: "deviceMin", commitment: "buy" },
           nextId: "qD2_own_chooseDevice",
         },
@@ -955,27 +954,50 @@ window.quizConfig = {
     qD2_rent_monitorDuration: {
       id: "qD2_rent_monitorDuration",
       type: "singleChoice",
-      text: "How long do you plan on using Soberlink? Pay less by monitoring longer. Experts suggest at least 1 year of monitoring.",
+      text: "How long do you plan on using Soberlink? Pay less by monitoring longer.",
+      choiceLayout: "deviceCards",
+      size: "lg",
       options: [
         {
           value: "oneYear",
           labelHtml:
-            "I plan to monitor for at least one year. {PRICE}/mo device. Requires a 365-day Monitoring Commitment.",
+            "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> one year.",
+          badge: {
+            label: "EXPERTS SUGGEST AT LEAST 1 YEAR OF MONITORING",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "info",
+            },
+          },
+          metaHtml: "Connect Device",
+          subMetaHtml: "Requires a 365-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
             device: "connect",
             commitment: "rent 365",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a7325d37adef870b97c7e0_1year.avif",
+            alt: "1 year calendar icon",
           },
           nextId: "res_final_rent_connect_19_365",
         },
         {
           value: "fourMonths",
           labelHtml:
-            "I plan to monitor for at least 4 months. {PRICE}/mo device. Requires 120-Day Monitoring Commitment.",
+            "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> 4 months.",
+          metaHtml: "Connect Device",
+          subMetaHtml: "Requires a 120-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
             device: "connect",
             commitment: "rent 120",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a7325db5deef01398660f6_4months.avif",
+            alt: "4 month calendar icon",
           },
           nextId: "res_final_rent_connect_29_120",
         },
