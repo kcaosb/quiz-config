@@ -389,7 +389,6 @@ window.quizConfig = {
         id: "concernedPartyInfo",
         labelHtml: "Concerned Party info",
       },
-      text: "Who do you need to share your results with?",
       options: [
         {
           value: "concernedOnly",
