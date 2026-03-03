@@ -914,12 +914,13 @@ window.quizConfig = {
     qD1_paymentPreference: {
       id: "qD1_paymentPreference",
       type: "singleChoice",
+      size: "xlg",
       text: "Which payment method do you prefer?",
       options: [
         {
           value: "rent",
           labelHtml:
-            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><br/><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
+            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           nextId: "qD2_rent_monitorDuration",
         },
