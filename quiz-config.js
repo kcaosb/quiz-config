@@ -936,17 +936,15 @@ window.quizConfig = {
     qD2_own_chooseDevice: {
       id: "qD2_own_chooseDevice",
       type: "singleChoice",
-      text: "Choose your device.",
+      text: "Select the device that works best for you.",
       choiceLayout: "buyDeviceCards",
       size: "xlg",
       options: [
         {
           value: "connect",
-          labelHtml: "Connect",
-          metaHtml: "Connect",
-          subMetaHtml: "No minimum monitoring commitment required",
-          descHtml:
-            "Bluetooth device uses smartphone to transmit test results.<br>Smartphone pairing required.",
+          title: "Connect",
+          subtitle: "No minimum monitoring commitment required",
+          descriptionHtml: `Bluetooth device uses smartphone to transmit test results.<br>Smartphone pairing required.`,
           priceRef: { kind: "device", device: "connect", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
@@ -956,11 +954,10 @@ window.quizConfig = {
         },
         {
           value: "cellular 2",
-          labelHtml: "Cellular 2",
-          metaHtml: "Cellular 2",
-          subMetaHtml: "No minimum monitoring commitment required",
-          descHtml:
-            "All-in-one device uses cellular data to transmit test results.<br>No smartphone required.",
+          title: "Cellular 2",
+          subtitle: "No minimum monitoring commitment required",
+          descriptionHtml: `
+          All-in-one device uses cellular data to transmit test results.<br>No smartphone pairing required.`,
           priceRef: { kind: "device", device: "cellular 2", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
