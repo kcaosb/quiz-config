@@ -30,6 +30,14 @@ window.quizConfig = {
         },
       ],
     },
+    womanStory: {
+      titleHtml: "Women’s Story",
+      videoUrl: "https://www.youtube.com/watch?v=Eg8U69Ui41U",
+    },
+    manStory: {
+      titleHtml: "Man’s Story",
+      videoUrl: "https://www.youtube.com/watch?v=Eg8U69Ui41U",
+    },
   },
   nodes: {
     intro_start: {
@@ -767,13 +775,25 @@ window.quizConfig = {
     },
     qB3_custody_storyIntro: {
       id: "qB3_custody_storyIntro",
-      type: "info",
-      text:
-        "We'll tailor a plan that best fits your needs.\n\n" +
+      type: "stories",
+      headline: "We’ll tailor a plan that best fits your needs.",
+      subheadlineHtml:
         "But first, take a look at some stories you might connect with.",
-      links: [
-        { labelHtml: "Woman's Story", type: "lightbox", id: "womanStory" },
-        { labelHtml: "Man's Story", type: "lightbox", id: "manStory" },
+      stories: [
+        {
+          id: "womanStory",
+          title: "Watch Women’s Story",
+          icon: { url: "...", alt: "Story icon" },
+          image: { url: "...", alt: "Testimony thumbnail" },
+          opensModalId: "womanStory",
+        },
+        {
+          id: "manStory",
+          title: "Watch Man’s Story",
+          icon: { url: "...", alt: "Story icon" },
+          image: { url: "...", alt: "Testimony thumbnail" },
+          opensModalId: "manStory",
+        },
       ],
       primaryCta: { label: "Continue", nextId: "qB4_monitoredClientFrequency" },
     },
@@ -858,7 +878,6 @@ window.quizConfig = {
         },
       ],
     },
-    //level 2 receiver
     qB7_level2_notify_onlyMe_receiver: {
       id: "qB7_level2_notify_onlyMe_receiver",
       type: "singleChoice",
@@ -915,7 +934,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "idk",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -964,7 +983,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "UNLIMITED TESTING DAYS",
+            label: "50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
