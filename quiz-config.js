@@ -38,6 +38,10 @@ window.quizConfig = {
       titleHtml: "Man’s Story",
       videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
     },
+    maxAndCami: {
+      titleHtml: "Max and Cami's Story",
+      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
+    },
   },
   nodes: {
     intro_start: {
@@ -272,7 +276,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How would you like your progress recognized?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailNextDay",
@@ -336,7 +340,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How would you like your progress recognized?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailRealtime",
@@ -448,7 +452,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How would you like your progress recognized?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailNextDay",
@@ -514,7 +518,7 @@ window.quizConfig = {
       id: "qA8L1_notify_manyContacts_submitter",
       type: "singleChoice",
       text: "How would you like your progress recognized?",
-      size: "lg",
+      size: "xlg",
       choiceLayout: "planCards",
       options: [
         {
@@ -590,7 +594,7 @@ window.quizConfig = {
       id: "qA4_share_notify_oneContact_submitter",
       type: "singleChoice",
       text: "How would you like your progress recognized?",
-      size: "lg",
+      size: "xlg",
       choiceLayout: "planCards",
       options: [
         {
@@ -656,7 +660,7 @@ window.quizConfig = {
     qA4_share_notify_manyContacts_submitter: {
       id: "qA4_share_notify_manyContacts_submitter",
       type: "singleChoice",
-      size: "lg",
+      size: "xlg",
       choiceLayout: "planCards",
       text: "How would you like your progress recognized?",
       options: [
@@ -804,7 +808,7 @@ window.quizConfig = {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
       textHtml:
-        "<span style='color: #00abdf;'>Definition to Know</span><br/><br/> The <span class='u-bold;'>Monitored Client</span> is the person submitting Soberlink tests.",
+        "<span style='color: #00abdf;'>Definition to Know</span><br/>The <span class='u-bold;'>Monitored Client</span> is the person submitting Soberlink tests.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
       primaryCta: {
@@ -906,7 +910,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How should we send you the results?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailNextDay",
@@ -973,7 +977,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How should we send you the results?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailRealtime",
@@ -1087,7 +1091,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How should we send you the results?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailNextDay",
@@ -1154,7 +1158,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How should we send you the results?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailRealtime",
@@ -1200,20 +1204,20 @@ window.quizConfig = {
     },
     qB3_share_storyIntro: {
       id: "qB3_share_storyIntro",
-      type: "info",
-      text:
-        "We'll tailor a plan that best fits your needs:\n\n" +
-        "But first, take a look at a story you might connect with.\n" +
-        "MAX & CAMI VIDEO CLICK HERE.\n" +
-        "(Lightbox)",
-      links: [
+      type: "stories",
+      headline: "We’ll tailor a plan that best fits your needs.",
+      subheadlineHtml:
+        "But first, take a look at a story you might connect with.",
+      stories: [
         {
-          labelHtml: "Max &amp; Cami Video",
-          type: "lightbox",
-          id: "maxCamiVideo",
+          id: "maxAndCami",
+          title: "Watch Max and Cami's Story",
+          icon: { url: "...", alt: "Story icon" },
+          image: { url: "...", alt: "Testimony thumbnail" },
+          opensModalId: "maxAndCami",
         },
       ],
-      primaryCta: { label: "Continue »", nextId: "qB4_share_scope_receiver" },
+      primaryCta: { label: "Continue", nextId: "qB4_share_scope_receiver" },
     },
     qB4_share_scope_receiver: {
       id: "qB4_share_scope_receiver",
@@ -1248,7 +1252,7 @@ window.quizConfig = {
       id: "qB5_share_notify_onlyMe_receiver",
       type: "singleChoice",
       text: "How should we send you the results?",
-      size: "lg",
+      size: "xlg",
       choiceLayout: "planCards",
       options: [
         {
@@ -1317,7 +1321,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How should we send you the results?",
       choiceLayout: "planCards",
-      size: "lg",
+      size: "xlg",
       options: [
         {
           value: "emailRealtime",
