@@ -1059,7 +1059,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
-      text: "Now, let’s select your device.",
+      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1080,7 +1080,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
-      text: "Now, let’s select your device.",
+      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1101,7 +1101,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
-      text: "Now, let’s select your device.",
+      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1142,7 +1142,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Basic",
-      text: "We’ve selected a plan for you: Level 1 Basic.\n\nNow, let’s select your device.",
+      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1163,7 +1163,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
-      text: "Now, let’s select your device.",
+      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1184,7 +1184,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
-      text: "Now, let’s select your device.",
+      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
