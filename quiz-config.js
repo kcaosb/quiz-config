@@ -804,7 +804,7 @@ window.quizConfig = {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
       textHtml:
-        "<span style='color: #00abdf;'>Definition to Know</span>\n\n The Monitored Client is the person submitting Soberlink tests.",
+        "<span style='color: #00abdf;'>Definition to Know</span><br/><br/> The <span class='u-bold;'>Monitored Client</span> is the person submitting Soberlink tests.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
       primaryCta: {
@@ -816,6 +816,7 @@ window.quizConfig = {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
       text: "With your <span class='u-bold'>Monitored Client,</span> which option most fits your situation?",
+      size: "lg",
       options: [
         {
           value: "everyDay",
@@ -824,6 +825,13 @@ window.quizConfig = {
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
+          },
+          badge: {
+            label: "EXPERTS SUGGEST TESTING EVERY DAY",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
           },
           nextId: "qB4b_level2_intro_receiver",
         },
@@ -855,9 +863,11 @@ window.quizConfig = {
       //TO DO, MOCK LIKE THE MODAL
       id: "qB5a_level2_concernedIntro_receiver",
       type: "info",
-      text:
+      textHtml:
         "What is a Concerned Party?" +
         "The “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in the child’s wellbeing.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       primaryCta: {
         label: "Continue",
         nextId: "qB6_level2_shareScope_receiver",
