@@ -1054,6 +1054,8 @@ window.quizConfig = {
     res_plan_level2_basic: {
       id: "res_plan_level2_basic",
       type: "plan",
+      programKey: "level2",
+      planKey: "basic",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
@@ -1073,6 +1075,8 @@ window.quizConfig = {
     res_plan_level2_plus: {
       id: "res_plan_level2_plus",
       type: "plan",
+      programKey: "level2",
+      planKey: "plus",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
@@ -1092,6 +1096,8 @@ window.quizConfig = {
     res_plan_level2_premium: {
       id: "res_plan_level2_premium",
       type: "plan",
+      programKey: "level2",
+      planKey: "premium",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
@@ -1111,6 +1117,7 @@ window.quizConfig = {
     res_plan_level2_generic_receiver: {
       id: "res_plan_level2_generic_receiver",
       type: "plan",
+      programKey: "level2",
       headlineHtml: "We’ve selected a plan for your Monitored Client:",
       program: "Level 2",
       plan: "Plus",
@@ -1130,6 +1137,8 @@ window.quizConfig = {
     res_plan_level1_basic: {
       id: "res_plan_level1_basic",
       type: "plan",
+      programKey: "level1",
+      planKey: "basic",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Basic",
@@ -1149,6 +1158,8 @@ window.quizConfig = {
     res_plan_level1_plus: {
       id: "res_plan_level1_plus",
       type: "plan",
+      programKey: "level1",
+      planKey: "plus",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
@@ -1168,6 +1179,8 @@ window.quizConfig = {
     res_plan_level1_premium: {
       id: "res_plan_level1_premium",
       type: "plan",
+      programKey: "level1",
+      planKey: "premium",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
@@ -1187,6 +1200,8 @@ window.quizConfig = {
     res_plan_share_basic: {
       id: "res_plan_share_basic",
       type: "plan",
+      programKey: "share",
+      planKey: "basic",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Basic",
@@ -1205,6 +1220,8 @@ window.quizConfig = {
     res_plan_share_plus: {
       id: "res_plan_share_plus",
       type: "plan",
+      programKey: "share",
+      planKey: "plus",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Plus",
@@ -1223,6 +1240,8 @@ window.quizConfig = {
     res_plan_share_premium: {
       id: "res_plan_share_premium",
       type: "plan",
+      programKey: "share",
+      planKey: "premium",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Premium",
