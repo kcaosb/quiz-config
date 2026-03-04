@@ -1054,7 +1054,7 @@ window.quizConfig = {
     res_plan_level2_basic: {
       id: "res_plan_level2_basic",
       type: "plan",
-      programKey: "level2",
+      programKey: "level_2",
       planKey: "basic",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
@@ -1075,7 +1075,7 @@ window.quizConfig = {
     res_plan_level2_plus: {
       id: "res_plan_level2_plus",
       type: "plan",
-      programKey: "level2",
+      programKey: "level_2",
       planKey: "plus",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
@@ -1096,7 +1096,7 @@ window.quizConfig = {
     res_plan_level2_premium: {
       id: "res_plan_level2_premium",
       type: "plan",
-      programKey: "level2",
+      programKey: "level_2",
       planKey: "premium",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
@@ -1117,7 +1117,7 @@ window.quizConfig = {
     res_plan_level2_generic_receiver: {
       id: "res_plan_level2_generic_receiver",
       type: "plan",
-      programKey: "level2",
+      programKey: "level_2",
       headlineHtml: "We’ve selected a plan for your Monitored Client:",
       program: "Level 2",
       plan: "Plus",
@@ -1137,7 +1137,7 @@ window.quizConfig = {
     res_plan_level1_basic: {
       id: "res_plan_level1_basic",
       type: "plan",
-      programKey: "level1",
+      programKey: "level_1",
       planKey: "basic",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
@@ -1158,7 +1158,7 @@ window.quizConfig = {
     res_plan_level1_plus: {
       id: "res_plan_level1_plus",
       type: "plan",
-      programKey: "level1",
+      programKey: "level_1",
       planKey: "plus",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
@@ -1179,7 +1179,7 @@ window.quizConfig = {
     res_plan_level1_premium: {
       id: "res_plan_level1_premium",
       type: "plan",
-      programKey: "level1",
+      programKey: "level_1",
       planKey: "premium",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
