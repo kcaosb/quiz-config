@@ -1286,6 +1286,10 @@ window.quizConfig = {
         "LEVEL & PLAN (from your previous selection),\n" +
         "CONNECT + PRICING.\n\n" +
         "Add to Cart »  |  Email Recommendations »",
+      deviceIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+        alt: "Connect Device",
+      },
       nextId: null,
     },
 
@@ -1312,6 +1316,10 @@ window.quizConfig = {
         "LEVEL & PLAN (from your previous selection),\n" +
         "CELLULAR 2 + PRICING.\n\n" +
         "Add to Cart »  |  Email Recommendations »",
+      deviceIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
+        alt: "Cellular 2 Device",
+      },
       nextId: null,
     },
 
@@ -1337,6 +1345,10 @@ window.quizConfig = {
         "LEVEL & PLAN (from your previous selection),\n" +
         "CONNECT + $19/mo.\n\n" +
         "Add to Cart »  |  Email Recommendations »",
+      deviceIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+        alt: "Connect Device",
+      },
       nextId: null,
     },
 
@@ -1362,6 +1374,10 @@ window.quizConfig = {
         "LEVEL & PLAN (from your previous selection),\n" +
         "CONNECT + $29/mo.\n\n" +
         "Add to Cart »  |  Email Recommendations »",
+      deviceIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+        alt: "Connect Device",
+      },
       nextId: null,
     },
   },
