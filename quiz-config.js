@@ -278,7 +278,10 @@ window.quizConfig = {
             tier: "basic",
             cadence: "mo",
           },
-          icon: { url: "https://.../mail-icon.png", alt: "Email" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email",
+          },
           nextId: "res_plan_level2_basic",
         },
         {
@@ -315,7 +318,7 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: { url: "https://.../premium-icon.png", alt: "email and phone" },
           nextId: "res_plan_level2_premium",
         },
       ],
@@ -337,7 +340,10 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
-          icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_level2_plus",
         },
         {
@@ -357,6 +363,10 @@ window.quizConfig = {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
             },
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
         },
@@ -444,7 +454,10 @@ window.quizConfig = {
             tier: "basic",
             cadence: "mo",
           },
-          icon: { url: "https://.../mail-icon.png", alt: "Email" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email",
+          },
           nextId: "res_plan_level1_basic",
         },
         {
@@ -459,7 +472,10 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
-          icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_level1_plus",
         },
         {
@@ -503,7 +519,10 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
-          icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email",
+          },
           nextId: "res_plan_level1_plus",
         },
         {
@@ -542,7 +561,7 @@ window.quizConfig = {
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'> with</span> one contact",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
             alt: "one person",
           },
           nextId: "qA4_share_notify_oneContact_submitter",
@@ -552,7 +571,7 @@ window.quizConfig = {
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with</span> more than one Contact.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
             alt: "two people",
           },
           nextId: "qA4_share_notify_manyContacts_submitter",
@@ -578,7 +597,10 @@ window.quizConfig = {
             tier: "basic",
             cadence: "mo",
           },
-          icon: { url: "https://.../basic-icon.png", alt: "basic" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_share_basic",
         },
         {
@@ -600,7 +622,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../plus-icon.png", alt: "plus" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_share_plus",
         },
         {
@@ -615,7 +640,7 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
-          icon: { url: "https://.../prem-icon.png", alt: "prem" },
+          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
           nextId: "res_plan_share_premium",
         },
       ],
@@ -637,6 +662,10 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email",
+          },
           nextId: "res_plan_share_plus",
         },
         {
@@ -649,8 +678,12 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email and phone",
+          },
           badge: {
-            label: "idk",
+            label: "MOST POPULAR",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -674,9 +707,30 @@ window.quizConfig = {
       type: "multiChoice",
       text: "Check the reason(s) you need monitoring.",
       options: [
-        { value: "childCustody", labelHtml: "Child Custody" },
-        { value: "proofOfSobriety", labelHtml: "Proof of Sobriety" },
-        { value: "criminalJustice", labelHtml: "Criminal Justice" },
+        {
+          value: "childCustody",
+          labelHtml: "Child Custody",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105e3b251bf554a158_child%20custody.png",
+            alt: "Child custody",
+          },
+        },
+        {
+          value: "proofOfSobriety",
+          labelHtml: "Proof of Sobriety",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12e28a4ae509b1f527_sobriety.png",
+            alt: "Sobriety",
+          },
+        },
+        {
+          value: "criminalJustice",
+          labelHtml: "Criminal Justice",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105c147f90eadeb96f_criminal%20justic.avif",
+            alt: "Criminal justice",
+          },
+        },
       ],
       rules: [
         {
@@ -723,6 +777,7 @@ window.quizConfig = {
       ],
       primaryCta: { label: "Continue", nextId: "qB4_monitoredClientFrequency" },
     },
+    //TO DO: INFO SCREEN FOR DEFINITION TO KNOW, reroute above to definition to know.
     qB4_monitoredClientFrequency: {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
@@ -733,13 +788,22 @@ window.quizConfig = {
       options: [
         {
           value: "everyDay",
-          labelHtml: "Your Monitored Client needs to test every day.",
+          labelHtml:
+            "<span class='u-normal'>Your Monitored Client needs to</span> test every day.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+            alt: "calendar with all days highlighted icon",
+          },
           nextId: "res_plan_level2_generic_receiver",
         },
         {
           value: "parentingDaysOnly",
           labelHtml:
-            "Your Monitored Client only needs to test on parenting days.",
+            "<span class='u-normal'>Your Monitored Client only needs to</span> test on parenting days.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
+            alt: "calendar icon with only several days highlighted",
+          },
           nextId: "qB4b_level1_intro_receiver",
         },
       ],
@@ -760,7 +824,7 @@ window.quizConfig = {
         {
           value: "twentyEnough",
           labelHtml:
-            "20 testing days per month is enough. Extra days are $15 each.",
+            "20 testing days per month is enough. <span class='u-normal'>Extra days are $15 each.</span>",
           nextId: "qB5a_concernedIntro_receiver",
         },
         {
@@ -772,10 +836,11 @@ window.quizConfig = {
       ],
     },
     qB5a_concernedIntro_receiver: {
+      //TO DO, MOCK LIKE THE MODAL
       id: "qB5a_concernedIntro_receiver",
       type: "info",
       text:
-        "To keep everyone informed, the test results must be shared with you, the “Concerned Party.”\n\n" +
+        "What is a Concerned Party?" +
         "The “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in the child’s wellbeing.",
       primaryCta: { label: "Continue", nextId: "qB6_shareScope_receiver" },
     },
@@ -786,13 +851,22 @@ window.quizConfig = {
       options: [
         {
           value: "onlyMe",
-          labelHtml: "The results only need to be shared with me.",
+          labelHtml:
+            "<span class='u-normal'>The</span> results only  <span class='u-normal'>need to be</span> shared with me, <span class='u-normal'>the Concerned Party.</span>",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
           nextId: "qB7_notify_onlyMe_receiver",
         },
         {
           value: "meAndOthers",
           labelHtml:
-            "The results need to be shared with me and other Contacts.",
+            "<span class='u-normal'>The</span> results <span class='u-normal'>need to be</span> shared with me and <span class='u-normal'>other</span> Contacts.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
           nextId: "qB7_notify_meAndOthers_receiver",
         },
       ],
@@ -801,23 +875,65 @@ window.quizConfig = {
       id: "qB7_notify_onlyMe_receiver",
       type: "singleChoice",
       text: "How should we send you the results?",
+      choiceLayout: "planCards",
+      size: "lg",
       options: [
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>I want the </span>test results emailed to me the next day",
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>the</span> next day",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "basic",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_level1_basic",
         },
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed in real time",
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "plus",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_level1_plus",
         },
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed and texts in real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "premium",
+            cadence: "mo",
+          },
+          badge: {
+            label: "50% OFF EXPERT TESTIMONY",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -826,15 +942,47 @@ window.quizConfig = {
       id: "qB7_notify_meAndOthers_receiver",
       type: "singleChoice",
       text: "How should we send you the results?",
+      choiceLayout: "planCards",
+      size: "lg",
       options: [
         {
           value: "emailRealtime",
-          labelHtml: "I want the test results emailed in real time",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "plus",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_level1_plus",
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "I want the test results emailed and texted in real time",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_1",
+            tier: "premium",
+            cadence: "mo",
+          },
+          badge: {
+            label: "50% OFF EXPERT TESTIMONY",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -865,13 +1013,22 @@ window.quizConfig = {
       options: [
         {
           value: "onlyMe",
-          labelHtml: "The results only need to be shared with me.",
+          labelHtml:
+            "<span class='u-normal'>The</span> results <span class='u-normal'>only need to be</span> shared with me.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
           nextId: "qB5_share_notify_onlyMe_receiver",
         },
         {
           value: "meAndOthers",
           labelHtml:
-            "The results need to be shared with me and other Contacts.",
+            "<span class='u-normal'>The</span> results <span class='u-normal'>need to be</span> shared with me and other Contacts.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
           nextId: "qB5_share_notify_meAndOthers_receiver",
         },
       ],
@@ -880,23 +1037,65 @@ window.quizConfig = {
       id: "qB5_share_notify_onlyMe_receiver",
       type: "singleChoice",
       text: "How should we send you the results?",
+      size: "lg",
+      choiceLayout: "planCards",
       options: [
         {
           value: "emailNextDay",
           labelHtml:
             "<span class='u-normal'>I want the </span>test results emailed to me the next day",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "basic",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_share_basic",
         },
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed in real tim",
+            "<span class='u-normal'>I want the</span> test results emailed in real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "plus",
+            cadence: "mo",
+          },
+          badge: {
+            label: "MOST POPULAR",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
           labelHtml:
             "<span class='u-normal'>I want the</span> test results emailed and texts in real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "premium",
+            cadence: "mo",
+          },
+          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
           nextId: "res_plan_share_premium",
         },
       ],
@@ -906,15 +1105,47 @@ window.quizConfig = {
       id: "qB5_share_notify_meAndOthers_receiver",
       type: "singleChoice",
       text: "How should we send you the results?",
+      choiceLayout: "planCards",
+      size: "lg",
       options: [
         {
           value: "emailRealtime",
-          labelHtml: "I want the test results emailed in real-time.",
+          labelHtml:
+            "<span class='u-normal'>I want the</span> test results emailed in real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "plus",
+            cadence: "mo",
+          },
+          badge: {
+            label: "MOST POPULAR",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
           nextId: "res_plan_share_plus",
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "I want the test results emailed and texted in real-time.",
+          labelHtml:
+            "<span class='u-normal'>I want the</span> test results emailed and texts in real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
+          priceRef: {
+            kind: "plan",
+            program: "share",
+            tier: "premium",
+            cadence: "mo",
+          },
+          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
           nextId: "res_plan_share_premium",
         },
       ],
