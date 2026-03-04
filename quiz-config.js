@@ -1060,6 +1060,14 @@ window.quizConfig = {
       text: "Now, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Level 2",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
+        alt: "Basic",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level2_plus: {
@@ -1071,6 +1079,14 @@ window.quizConfig = {
       text: "Now, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Level 2",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
+        alt: "Plus",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level2_premium: {
@@ -1082,6 +1098,14 @@ window.quizConfig = {
       text: "Now, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Level 2",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
+        alt: "Premium",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level2_generic_receiver: {
@@ -1093,6 +1117,14 @@ window.quizConfig = {
       text: "We’ve selected a Level 2 Program for your Monitored Client.\n\nNow, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Level 2",
+      },
+      planIcon: {
+        url: "https://cdn.site.com/icons/basic.svg",
+        alt: "Basic",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level1_basic: {
@@ -1104,6 +1136,14 @@ window.quizConfig = {
       text: "We’ve selected a plan for you: Level 1 Basic.\n\nNow, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
+        alt: "Level 1",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
+        alt: "Basic",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level1_plus: {
@@ -1115,6 +1155,14 @@ window.quizConfig = {
       text: "Now, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
+        alt: "Level 1",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
+        alt: "Plus",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level1_premium: {
@@ -1126,6 +1174,14 @@ window.quizConfig = {
       text: "Now, let’s select your device.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
+        alt: "Level 1",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
+        alt: "Premium",
+      },
       nextId: "postPlan_router",
     },
     res_plan_share_basic: {
@@ -1136,6 +1192,14 @@ window.quizConfig = {
       plan: "Basic",
       text: "Now, let’s select your device.",
       imageUrl: "https://cdn.../level2-plus.png",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Share",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
+        alt: "Basic",
+      },
       nextId: "postPlan_router",
     },
     res_plan_share_plus: {
@@ -1146,6 +1210,14 @@ window.quizConfig = {
       plan: "Plus",
       text: "Now, let’s select your device.",
       imageUrl: "https://cdn.../level2-plus.png",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Share",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
+        alt: "Plus",
+      },
       nextId: "postPlan_router",
     },
     res_plan_share_premium: {
@@ -1156,6 +1228,14 @@ window.quizConfig = {
       plan: "Premium",
       text: "Now, let’s select your device.",
       imageUrl: "https://cdn.../level2-plus.png",
+      programIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        alt: "Share",
+      },
+      planIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
+        alt: "Premium",
+      },
       nextId: "postPlan_router",
     },
     res_generic_contact: {
