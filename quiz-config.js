@@ -791,7 +791,8 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
           },
-          nextId: "res_plan_level2_generic_receiver",
+          // nextId: "res_plan_level2_generic_receiver",
+          nextId: "qB4b_level2_intro_receiver",
         },
         {
           value: "parentingDaysOnly",
@@ -802,6 +803,172 @@ window.quizConfig = {
             alt: "calendar icon with only several days highlighted",
           },
           nextId: "qB4b_level1_intro_receiver",
+        },
+      ],
+    },
+    qB4b_level2_intro_receiver: {
+      id: "qB4b_level2_intro_receiver",
+      type: "info",
+      headlineHtml: "We’ve selected a plan for your Monitored Client:",
+      text: "We’ve selected a Level 2 Program for your Monitored Client.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+      primaryCta: { label: "Next", nextId: "qB5a_concernedIntro_receiver" },
+    },
+    qB5a_concernedIntro_receiver: {
+      //TO DO, MOCK LIKE THE MODAL
+      id: "qB5a_concernedIntro_receiver",
+      type: "info",
+      text:
+        "What is a Concerned Party?" +
+        "The “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in the child’s wellbeing.",
+      primaryCta: {
+        label: "Continue",
+        nextId: "qB6_level2_shareScope_receiver",
+      },
+    },
+    // level 2 results shared with
+    qB6_level2_shareScope_receiver: {
+      id: "qB6_level2_shareScope_receiver",
+      type: "singleChoice",
+      text: "Who else do the results need to be shared with?",
+      options: [
+        {
+          value: "onlyMe",
+          labelHtml:
+            "<span class='u-normal'>The</span> results only  <span class='u-normal'>need to be</span> shared with me, <span class='u-normal'>the Concerned Party.</span>",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
+          nextId: "qB7_level2_notify_onlyMe_receiver",
+        },
+        {
+          value: "meAndOthers",
+          labelHtml:
+            "<span class='u-normal'>The</span> results <span class='u-normal'>need to be</span> shared with me and <span class='u-normal'>other</span> Contacts.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
+          nextId: "qB7_level2_notify_meAndOthers_receiver",
+        },
+      ],
+    },
+    //level 2 receiver
+    qB7_level2_notify_onlyMe_receiver: {
+      id: "qB7_level2_notify_onlyMe_receiver",
+      type: "singleChoice",
+      text: "How should we send you the results?",
+      choiceLayout: "planCards",
+      size: "lg",
+      options: [
+        {
+          value: "emailNextDay",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>the</span> next day",
+          metaHtml:
+            "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "basic",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
+          nextId: "res_plan_level2_basic",
+        },
+        {
+          value: "emailRealtime",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "plus",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
+          nextId: "res_plan_level2_plus",
+        },
+        {
+          value: "emailTextRealtime",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "premium",
+            cadence: "mo",
+          },
+          badge: {
+            label: "idk",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          nextId: "res_plan_level2_premium",
+        },
+      ],
+    },
+    qB7_level2_notify_meAndOthers_receiver: {
+      id: "qB7_level2_notify_meAndOthers_receiver",
+      type: "singleChoice",
+      text: "How should we send you the results?",
+      choiceLayout: "planCards",
+      size: "lg",
+      options: [
+        {
+          value: "emailRealtime",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "plus",
+            cadence: "mo",
+          },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "email",
+          },
+          nextId: "res_plan_level2_plus",
+        },
+        {
+          value: "emailTextRealtime",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
+          priceRef: {
+            kind: "plan",
+            program: "level_2",
+            tier: "premium",
+            cadence: "mo",
+          },
+          badge: {
+            label: "UNLIMITED TESTING DAYS",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          nextId: "res_plan_level2_premium",
         },
       ],
     },
@@ -1344,16 +1511,7 @@ window.quizConfig = {
       },
       nextId: "postPlan_router",
     },
-    res_plan_level2_generic_receiver: {
-      id: "res_plan_level2_generic_receiver",
-      type: "plan",
-      programKey: "level_2",
-      headlineHtml: "We’ve selected a plan for your Monitored Client:",
-      text: "We’ve selected a Level 2 Program for your Monitored Client.",
-      imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
-      nextId: "postPlan_router",
-    },
+
     res_plan_level1_basic: {
       id: "res_plan_level1_basic",
       type: "plan",
