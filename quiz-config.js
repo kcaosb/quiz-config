@@ -803,8 +803,8 @@ window.quizConfig = {
     qB3a_monitoredClientIntro_receiver: {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
-      headlineHtml: "Definition to Know",
-      text: "The Monitored Client is the person submitting Soberlink tests.",
+      textHtml:
+        "<span style='color: #00abdf;'>Definition to Know</span>\n\n The Monitored Client is the person submitting Soberlink tests.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
       primaryCta: {
