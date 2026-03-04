@@ -813,11 +813,14 @@ window.quizConfig = {
       text: "We’ve selected a Level 2 Program for your Monitored Client.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
-      primaryCta: { label: "Next", nextId: "qB5a_concernedIntro_receiver" },
+      primaryCta: {
+        label: "Next",
+        nextId: "qB5a_level2_concernedIntro_receiver",
+      },
     },
-    qB5a_concernedIntro_receiver: {
+    qB5a_level2_concernedIntro_receiver: {
       //TO DO, MOCK LIKE THE MODAL
-      id: "qB5a_concernedIntro_receiver",
+      id: "qB5a_level2_concernedIntro_receiver",
       type: "info",
       text:
         "What is a Concerned Party?" +
