@@ -795,9 +795,23 @@ window.quizConfig = {
           opensModalId: "manStory",
         },
       ],
-      primaryCta: { label: "Continue", nextId: "qB4_monitoredClientFrequency" },
+      primaryCta: {
+        label: "Continue",
+        nextId: "qB3a_monitoredClientIntro_receiver",
+      },
     },
-    //TO DO: INFO SCREEN FOR DEFINITION TO KNOW, reroute above to definition to know.
+    qB3a_monitoredClientIntro_receiver: {
+      id: "qB3a_monitoredClientIntro_receiver",
+      type: "info",
+      headlineHtml: "Definition to Know",
+      text: "The Monitored Client is the person submitting Soberlink tests.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
+      primaryCta: {
+        label: "Continue",
+        nextId: "qB4_monitoredClientFrequency",
+      },
+    },
     qB4_monitoredClientFrequency: {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
@@ -811,7 +825,6 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
           },
-          // nextId: "res_plan_level2_generic_receiver",
           nextId: "qB4b_level2_intro_receiver",
         },
         {
