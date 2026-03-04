@@ -781,15 +781,12 @@ window.quizConfig = {
     qB4_monitoredClientFrequency: {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
-      text:
-        "The “Monitored Client” is the person submitting Soberlink tests.\n" +
-        "Experts suggest testing every day.\n\n" +
-        "With your Monitored Client, which option most fits your situation?",
+      text: "With your <span class='u-bold>Monitored Client,</span> which option most fits your situation?",
       options: [
         {
           value: "everyDay",
           labelHtml:
-            "<span class='u-normal'>Your Monitored Client needs to</span> test every day.",
+            "<span class='u-normal'>Your</span> Monitored Client<span class='u-normal'> needs to</span> test every day.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
@@ -799,7 +796,7 @@ window.quizConfig = {
         {
           value: "parentingDaysOnly",
           labelHtml:
-            "<span class='u-normal'>Your Monitored Client only needs to</span> test on parenting days.",
+            "<span class='u-normal'>Your</span> Monitored Client<span class='u-normal'> only needs to</span> test on parenting days.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
             alt: "calendar icon with only several days highlighted",
@@ -927,7 +924,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "UNLIMITED TESTING DAYS",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -976,7 +973,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "UNLIMITED TESTING DAYS",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
