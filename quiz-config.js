@@ -781,7 +781,7 @@ window.quizConfig = {
     qB4_monitoredClientFrequency: {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
-      text: "With your <span class='u-bold>Monitored Client,</span> which option most fits your situation?",
+      text: "With your <span class='u-bold'>Monitored Client,</span> which option most fits your situation?",
       options: [
         {
           value: "everyDay",
@@ -811,6 +811,8 @@ window.quizConfig = {
       text:
         "Because your Monitored Client only needs to test on parenting days, we suggest our:\n" +
         "Level 1 - Parenting Time Only Program.",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qB5L1_testingDays_receiver" },
     },
     qB5L1_testingDays_receiver: {
@@ -1347,19 +1349,9 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_2",
       headlineHtml: "We’ve selected a plan for your Monitored Client:",
-      program: "Level 2",
-      plan: "Plus",
-      text: "We’ve selected a Level 2 Program for your Monitored Client.\n\nNow, let’s select your device.",
+      text: "We’ve selected a Level 2 Program for your Monitored Client.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
-      programIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
-        alt: "Level 2",
-      },
-      planIcon: {
-        url: "https://cdn.site.com/icons/basic.svg",
-        alt: "Basic",
-      },
       nextId: "postPlan_router",
     },
     res_plan_level1_basic: {
