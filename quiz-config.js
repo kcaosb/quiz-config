@@ -32,11 +32,11 @@ window.quizConfig = {
     },
     womanStory: {
       titleHtml: "Women’s Story",
-      videoUrl: "https://www.youtube.com/watch?v=Eg8U69Ui41U",
+      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
     },
     manStory: {
       titleHtml: "Man’s Story",
-      videoUrl: "https://www.youtube.com/watch?v=Eg8U69Ui41U",
+      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
     },
   },
   nodes: {
