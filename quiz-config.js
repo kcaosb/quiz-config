@@ -63,8 +63,8 @@ window.quizConfig = {
           value: "submitTests",
           labelHtml: "I will be submitting tests.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c0608e42a435f446bed92_ce315f1326752a703132bbea97ca0058664832e1%20(1).avif",
-            alt: "Submitting tests",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be105c7bd17f44c6d354_Icon-cellular-device.avif",
+            alt: "device icon",
           },
           nextId: "qA2_reasons_submitter",
         },
@@ -72,8 +72,8 @@ window.quizConfig = {
           value: "receiveResults",
           labelHtml: "I will be receiving test results.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c060844a725d58758debe_180cc628c51370abdb7268fd9698565868052588.avif",
-            alt: "Receiving results",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be101ca46d7d9fc3f410_Icon-Text-Alert-Phone.avif",
+            alt: "phone icon",
           },
           nextId: "qB2_reasons_receiver",
         },
@@ -330,7 +330,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "email and phone" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level2_premium",
         },
       ],
@@ -377,7 +380,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
@@ -402,8 +405,8 @@ window.quizConfig = {
           labelHtml:
             "20 testing days per month is enough. Extra days at $15 each.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c0608e42a435f446bed92_ce315f1326752a703132bbea97ca0058664832e1%20(1).avif",
-            alt: "TODO",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be108f33f4d708defb0b_Icon-Calendar-20-Days.avif",
+            alt: "calendar icon",
           },
           nextId: "qA7L1_shareScope_submitter",
         },
@@ -411,8 +414,8 @@ window.quizConfig = {
           value: "needMoreThanTwenty",
           labelHtml: "I need more than 20 testing days a month.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c0608e42a435f446bed92_ce315f1326752a703132bbea97ca0058664832e1%20(1).avif",
-            alt: "TODO",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1088cb4c64a242b2bd_Icon-Calendar-20-Plus-Days.avif",
+            alt: "calendar icon",
           },
           nextId: "res_plan_level1_premium",
         },
@@ -652,7 +655,10 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
-          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_share_premium",
         },
       ],
@@ -691,7 +697,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "Email and phone",
           },
           badge: {
@@ -1040,12 +1046,20 @@ window.quizConfig = {
           value: "twentyEnough",
           labelHtml:
             "20 testing days per month is enough. <span class='u-normal'>Extra days are $15 each.</span>",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c0608e42a435f446bed92_ce315f1326752a703132bbea97ca0058664832e1%20(1).avif",
+            alt: "TODO",
+          },
           nextId: "qB5a_concernedIntro_receiver",
         },
         {
           value: "needMoreThanTwenty",
           labelHtml:
             "The Monitored Client needs more than 20 testing days per month.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/697c0608e42a435f446bed92_ce315f1326752a703132bbea97ca0058664832e1%20(1).avif",
+            alt: "TODO",
+          },
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -1310,7 +1324,10 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
-          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_share_premium",
         },
       ],
@@ -1360,7 +1377,10 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
-          icon: { url: "https://.../prem-icon.png", alt: "email and phone" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_share_premium",
         },
       ],
@@ -1571,7 +1591,7 @@ window.quizConfig = {
       plan: "Basic",
       text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
         alt: "Level 1",
@@ -1592,7 +1612,7 @@ window.quizConfig = {
       plan: "Plus",
       text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
         alt: "Level 1",
@@ -1613,7 +1633,7 @@ window.quizConfig = {
       plan: "Premium",
       text: "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
         alt: "Level 1",
@@ -1633,7 +1653,8 @@ window.quizConfig = {
       program: "Share",
       plan: "Basic",
       text: "Now, let’s select your device.",
-      imageUrl: "https://cdn.../level2-plus.png",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
         alt: "Share",
@@ -1653,7 +1674,8 @@ window.quizConfig = {
       program: "Share",
       plan: "Plus",
       text: "Now, let’s select your device.",
-      imageUrl: "https://cdn.../level2-plus.png",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
         alt: "Share",
@@ -1673,7 +1695,8 @@ window.quizConfig = {
       program: "Share",
       plan: "Premium",
       text: "Now, let’s select your device.",
-      imageUrl: "https://cdn.../level2-plus.png",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
         alt: "Share",
