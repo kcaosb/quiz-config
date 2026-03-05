@@ -1,9 +1,9 @@
 window.quizConfig = {
-  version: "2026-03-04",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
-      titleHtml: "<strong>What is a Concerned Party</strong>?",
+      titleHtml: "<strong>What is a Concerned Party?</strong>",
       bodyHtml:
         "A <span class='u-bold'>“Concerned Party,” often</span> a co-parent, guardian, or attorney, is <span class='u-bold'>someone who helps play a supportive role</span> in the child’s wellbeing.",
       items: [
@@ -41,6 +41,10 @@ window.quizConfig = {
     maxAndCami: {
       titleHtml: "Max and Cami's Story",
       videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
+    },
+    emailResults: {
+      titleHtml: "<strong>Email me my results</strong>",
+      kind: "emailForm",
     },
   },
   nodes: {
@@ -328,8 +332,9 @@ window.quizConfig = {
       introText:
         "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
-        url: "https://cdn.prod.website-files.com/REPLACE/your-info-icon.png",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69604646261cddc7d83503d4_info-v2-1.svg",
         alt: "More info",
+        text: "Concerned Party",
       },
       infoLink: {
         type: "lightbox",
@@ -429,6 +434,7 @@ window.quizConfig = {
         },
       ],
     },
+    //to do todo
     qA7L2_notify_manyContacts_submitter: {
       id: "qA7L2_notify_manyContacts_submitter",
       type: "singleChoice",
@@ -967,6 +973,9 @@ window.quizConfig = {
       type: "info",
       headlineHtml: "We’ve selected a plan for your Monitored Client:",
       text: "We’ve selected a Level 2 Program for your Monitored Client.",
+      text:
+        "Because your Monitored Client needs to test on everyday, we suggest our:\n" +
+        "Level 2 - Daily Testing Program.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       primaryCta: {
@@ -1557,7 +1566,7 @@ window.quizConfig = {
           value: "connect",
           title: "Connect",
           subtitle: "No minimum monitoring commitment required",
-          descriptionHtml: `Bluetooth device uses smartphone to transmit test results.<br>Smartphone pairing required.`,
+          descriptionHtml: `Bluetooth device uses smartphone to transmit test results.<br><span style='color: #00abdf; font-size: 10px;'>'Smartphone pairing required.</span>`,
           priceRef: { kind: "device", device: "connect", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
@@ -1570,7 +1579,7 @@ window.quizConfig = {
           title: "Cellular 2",
           subtitle: "No minimum monitoring commitment required",
           descriptionHtml: `
-          All-in-one device uses cellular data to transmit test results.<br>No smartphone pairing required.`,
+          All-in-one device uses cellular data to transmit test results.<br><span style='color: #00abdf; font-size: 10px;'>No smartphone pairing required.</span>`,
           priceRef: { kind: "device", device: "cellular 2", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
