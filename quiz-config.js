@@ -173,7 +173,8 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10ef2493addcafbb32_icon%20ahead.png",
             alt: "arrow icon",
           },
-          nextId: "qA4_testingFrequency_submitter",
+          // nextId: "qA4_testingFrequency_submitter",
+          nextId: "qA3a_proactiveGettingAheadQuote",
         },
         {
           value: "proactiveFalselyAccused",
@@ -182,7 +183,7 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f1061c8412f197bf530_Accused.png",
             alt: "thumbs down",
           },
-          nextId: "qA4_testingFrequency_submitter",
+          nextId: "qA3a_proactiveFalselyAccusedQuote",
         },
         {
           value: "proveSoberParentingTime",
@@ -191,7 +192,7 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f127fc27e2065acf64e_Sober%20PT.png",
             alt: "person and check icons",
           },
-          nextId: "qA4_testingFrequency_submitter",
+          nextId: "qA3a_proveSoberParentingTimeQuote",
         },
         {
           value: "fullAbstinenceKeepKids",
@@ -200,9 +201,89 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106ab22d06aa2f7922_Abstinence.png",
             alt: "stop sign",
           },
-          nextId: "qA4_testingFrequency_submitter",
+          nextId: "qA3a_fullAbstinenceKeepKidsQuote",
         },
       ],
+    },
+    qA3a_proactiveGettingAheadQuote: {
+      id: "qA3a_proactiveGettingAheadQuote",
+      type: "quote",
+      headlineHtml: "Happy to ‘Self-Report’",
+      subtitleHtml:
+        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+      person: {
+        image: {
+          url: "https://cdn.yoursite.com/people/charles.jpg",
+          alt: "Charles",
+        },
+        name: "Charles",
+        attribution: "Soberlink Client",
+      },
+
+      primaryCta: {
+        label: "Continue",
+        nextId: "qA4_testingFrequency_submitter",
+      },
+    },
+    qA3a_proactiveFalselyAccusedQuote: {
+      id: "qA3a_proactiveFalselyAccusedQuote",
+      type: "quote",
+      headlineHtml: "proactiveFalselyAccusedQuote",
+      subtitleHtml:
+        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+      person: {
+        image: {
+          url: "https://cdn.yoursite.com/people/charles.jpg",
+          alt: "Charles",
+        },
+        name: "Charles",
+        attribution: "Soberlink Client",
+      },
+
+      primaryCta: {
+        label: "Continue",
+        nextId: "qA4_testingFrequency_submitter",
+      },
+    },
+    qA3a_proveSoberParentingTimeQuote: {
+      id: "qA3a_proveSoberParentingTimeQuote",
+      type: "quote",
+      headlineHtml: "proveSoberParentingTimeQuote",
+      subtitleHtml:
+        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+      person: {
+        image: {
+          url: "https://cdn.yoursite.com/people/charles.jpg",
+          alt: "Charles",
+        },
+        name: "Charles",
+        attribution: "Soberlink Client",
+      },
+
+      primaryCta: {
+        label: "Continue",
+        nextId: "qA4_testingFrequency_submitter",
+      },
+    },
+    qA3a_fullAbstinenceKeepKidsQuote: {
+      id: "qA3a_fullAbstinenceKeepKidsQuote",
+      type: "quote",
+      headlineHtml: "fullAbstinenceKeepKidsQuote",
+      subtitleHtml:
+        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+      person: {
+        image: {
+          url: "https://cdn.yoursite.com/people/charles.jpg",
+          alt: "Charles",
+        },
+        name: "Charles",
+        attribution: "Soberlink Client",
+      },
+
+      primaryCta: {
+        label: "Continue",
+        nextId: "qA4_testingFrequency_submitter",
+      },
     },
     qA4_testingFrequency_submitter: {
       id: "qA4_testingFrequency_submitter",
