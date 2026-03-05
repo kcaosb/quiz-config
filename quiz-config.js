@@ -332,7 +332,7 @@ window.quizConfig = {
       introText:
         "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69604646261cddc7d83503d4_info-v2-1.svg",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "More info",
         text: "Concerned Party",
       },
@@ -524,8 +524,9 @@ window.quizConfig = {
       introText:
         "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
-        url: "https://cdn.prod.website-files.com/REPLACE/your-info-icon.png",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "More info",
+        text: "Concerned Party",
       },
       infoLink: {
         type: "lightbox",
