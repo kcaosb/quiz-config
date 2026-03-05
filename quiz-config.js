@@ -884,7 +884,7 @@ window.quizConfig = {
       type: "stories",
       headline: "We’ll tailor a plan that best fits your needs.",
       subheadlineHtml:
-        "But first, take a look at some stories you might connect with.",
+        "But first, <span class='u-bold'>take a look at some stories you might connect with.</span>",
       stories: [
         {
           id: "womanStory",
@@ -910,7 +910,7 @@ window.quizConfig = {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
       textHtml:
-        "<span style='color: #00abdf;'>Definition to Know</span><br/>The <span class='u-bold;'>Monitored Client</span> is the person submitting Soberlink tests.",
+        "<span style='color: #00abdf;'>Definition to Know</span><br/>The <span class='u-bold'>Monitored Client</span> is the person submitting Soberlink tests.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
       primaryCta: {
