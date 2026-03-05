@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-03",
+  version: "2026-03-04",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
