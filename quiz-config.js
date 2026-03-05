@@ -173,7 +173,6 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10ef2493addcafbb32_icon%20ahead.png",
             alt: "arrow icon",
           },
-          // nextId: "qA4_testingFrequency_submitter",
           nextId: "qA3a_proactiveGettingAheadQuote",
         },
         {
@@ -213,7 +212,7 @@ window.quizConfig = {
         "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
       person: {
         image: {
-          url: "https://cdn.yoursite.com/people/charles.jpg",
+          url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
           alt: "Charles",
         },
         name: "Charles",
@@ -233,7 +232,7 @@ window.quizConfig = {
         "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
       person: {
         image: {
-          url: "https://cdn.yoursite.com/people/charles.jpg",
+          url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
           alt: "Charles",
         },
         name: "Charles",
@@ -253,7 +252,7 @@ window.quizConfig = {
         "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
       person: {
         image: {
-          url: "https://cdn.yoursite.com/people/charles.jpg",
+          url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
           alt: "Charles",
         },
         name: "Charles",
@@ -273,7 +272,7 @@ window.quizConfig = {
         "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
       person: {
         image: {
-          url: "https://cdn.yoursite.com/people/charles.jpg",
+          url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
           alt: "Charles",
         },
         name: "Charles",
