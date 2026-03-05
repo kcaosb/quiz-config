@@ -9,21 +9,21 @@ window.quizConfig = {
       items: [
         {
           img: {
-            url: "https://.../coparent.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c064cf0e351e1acb69b9_CP-Coparent.avif",
             alt: "Co-parent",
           },
           labelHtml: "Co-parent",
         },
         {
           img: {
-            url: "https://.../guardian.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c0644474bd8f9e369a71_CP-Guardian.avif",
             alt: "Guardian",
           },
           labelHtml: "Guardian",
         },
         {
           img: {
-            url: "https://.../attorney.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c0627a7727e14ddfca53_CP-Attorney.avif",
             alt: "Attorney",
           },
           labelHtml: "Attorney",
