@@ -635,8 +635,10 @@ window.quizConfig = {
       options: [
         {
           value: "emailRealtime",
-          labelHtml: "My test results will be emailed in real time",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
+          labelHtml:
+            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
             kind: "plan",
             program: "level_1",
@@ -652,8 +654,9 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "My test results will be emailed + texted in real time (also comes with unlimited testing days)",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
+            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+          metaHtml:
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>>",
           priceRef: {
             kind: "plan",
             program: "level_1",
@@ -665,7 +668,7 @@ window.quizConfig = {
             alt: "email and phone",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "UNLIMITED TESTING DAYS",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
