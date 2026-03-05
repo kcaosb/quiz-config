@@ -396,7 +396,10 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
-          icon: { url: "https://.../realtime-icon.png", alt: "Real-time" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
+            alt: "Email",
+          },
           nextId: "res_plan_level2_plus",
         },
         {
@@ -608,7 +611,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -647,7 +653,10 @@ window.quizConfig = {
             tier: "premium",
             cadence: "mo",
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           badge: {
             label: "50% OFF EXPERT TESTIMONY",
             icon: {
@@ -1069,7 +1078,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level2_premium",
         },
       ],
@@ -1118,7 +1130,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level2_premium",
         },
       ],
@@ -1258,7 +1273,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level1_premium",
         },
       ],
@@ -1307,7 +1325,10 @@ window.quizConfig = {
               alt: "star icon",
             },
           },
-          icon: { url: "https://.../premium-icon.png", alt: "Premium" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
+            alt: "email and phone",
+          },
           nextId: "res_plan_level1_premium",
         },
       ],
