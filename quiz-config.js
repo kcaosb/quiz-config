@@ -261,12 +261,20 @@ window.quizConfig = {
           value: "concernedOnly",
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party only",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
           nextId: "qA7L2_notify_concernedOnly_submitter",
         },
         {
           value: "concernedAndOthers",
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party and <span class='u-normal'>other</span> contacts.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
           nextId: "qA7L2_notify_manyContacts_submitter",
         },
       ],
@@ -440,12 +448,20 @@ window.quizConfig = {
           value: "concernedOnly",
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party only",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
           nextId: "qA8L1_notify_concernedOnly_submitter",
         },
         {
           value: "concernedAndOthers",
           labelHtml:
             "<span class='u-normal'>I need my</span> results shared <span class='u-normal'>with my</span> Concerned Party and <span class='u-normal'>other</span> contacts.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
           nextId: "qA8L1_notify_manyContacts_submitter",
         },
       ],
