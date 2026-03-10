@@ -336,8 +336,9 @@ window.quizConfig = {
     qA5L2_intro_submitter: {
       id: "qA5L2_intro_submitter",
       type: "info",
+      headline: "We suggest our Level 2 - Daily Testing",
       textHtml:
-        "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 2 - Daily Testing</span><br/><span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
+        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Continue", nextId: "qA6L2_shareScope_submitter" },
@@ -504,8 +505,9 @@ window.quizConfig = {
     qA5L1_intro_submitter: {
       id: "qA5L1_intro_submitter",
       type: "info",
+      headlineHtml: "We suggest our Level 1 - Parenting Time Only",
       textHtml:
-        "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span><br/><span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
+        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Continue", nextId: "qA6L1_testingDays_submitter" },
@@ -946,8 +948,9 @@ window.quizConfig = {
     qB3a_monitoredClientIntro_receiver: {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
+      headlineHtml: "Definition to Know",
       textHtml:
-        "<span style='color: #00abdf;'>Definition to Know</span><br/>The <span class='u-bold'>Monitored Client</span> is the person submitting Soberlink tests.",
+        "The <span class='u-bold'>Monitored Client</span> is the person submitting Soberlink tests.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913bca74ea99f489308e_Level-1-Photo%201%20(1).avif",
       primaryCta: {
@@ -993,9 +996,7 @@ window.quizConfig = {
     qB4b_level2_intro_receiver: {
       id: "qB4b_level2_intro_receiver",
       type: "info",
-      headlineHtml: "We’ve selected a plan for your Monitored Client:",
-      text: "We’ve selected a Level 2 Program for your Monitored Client.",
-      text:
+      textHtml:
         "Because your Monitored Client needs to test on everyday, we suggest our:\n" +
         "Level 2 - Daily Testing Program.",
       imageUrl:
@@ -1172,9 +1173,10 @@ window.quizConfig = {
     qB4b_level1_intro_receiver: {
       id: "qB4b_level1_intro_receiver",
       type: "info",
-      text:
+      textHtml:
         "Because your Monitored Client only needs to test on parenting days, we suggest our:\n" +
-        "Level 1 - Parenting Time Only Program.",
+        "Level 1 - Parenting Time Only Program.\n" +
+        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qB5L1_testingDays_receiver" },
