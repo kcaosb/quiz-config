@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-10",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -338,6 +338,8 @@ window.quizConfig = {
       type: "info",
       textHtml:
         "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 2 - Daily Testing</span><br/><span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Continue", nextId: "qA6L2_shareScope_submitter" },
     },
     qA6L2_shareScope_submitter: {
@@ -459,7 +461,8 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
+          metaHtml:
+            "<span class='u-bold;' style='color: #00ABDF;'>Plus Plan</span>",
           priceRef: {
             kind: "plan",
             program: "level_2",
@@ -474,9 +477,9 @@ window.quizConfig = {
         },
         {
           value: "emailTextRealtime",
-          labelHtml:
-            "My test results will be emailed and texted in real-time (includes 50% OFF EXPERT TESTIMONY)",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
+          labelHtml: "My test results will be emailed and texted in real-time",
+          metaHtml:
+            "<span class='u-bold;' style='color: #1C4A82'>Premium Plan</span>",
           priceRef: {
             kind: "plan",
             program: "level_2",
@@ -503,6 +506,8 @@ window.quizConfig = {
       type: "info",
       textHtml:
         "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span><br/><span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
+      imageUrl:
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Continue", nextId: "qA6L1_testingDays_submitter" },
     },
     qA6L1_testingDays_submitter: {
