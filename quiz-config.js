@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-03",
+  version: "2026-03-10",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -291,8 +291,8 @@ window.quizConfig = {
     qA4_testingFrequency_submitter: {
       id: "qA4_testingFrequency_submitter",
       type: "singleChoice",
-      text: "Experts suggest testing every day. Which option sounds most like you?",
-
+      text: "Which option sounds most like you?",
+      size: "lg",
       options: [
         {
           value: "everyDay",
@@ -302,7 +302,14 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
           },
-          nextId: "qA6L2_shareScope_submitter",
+          badge: {
+            label: "EXPERTS SUGGEST TESTING EVERY DAY",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
+          nextId: "qA5L2_intro_submitter",
         },
         {
           value: "notEveryDay",
@@ -325,6 +332,13 @@ window.quizConfig = {
           nextId: "qA5L1_intro_submitter",
         },
       ],
+    },
+    qA5L2_intro_submitter: {
+      id: "qA5L2_intro_submitter",
+      type: "info",
+      textHtml:
+        "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 2 - Daily Testing</span><br/><span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
+      primaryCta: { label: "Continue", nextId: "qA6L2_shareScope_submitter" },
     },
     qA6L2_shareScope_submitter: {
       id: "qA6L2_shareScope_submitter",
@@ -487,9 +501,8 @@ window.quizConfig = {
     qA5L1_intro_submitter: {
       id: "qA5L1_intro_submitter",
       type: "info",
-      text:
-        "We suggest our Level 1 - Parenting Time Only Program.\n\n" +
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
+      textHtml:
+        "<span class='u-bold'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span><br/><span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       primaryCta: { label: "Continue", nextId: "qA6L1_testingDays_submitter" },
     },
     qA6L1_testingDays_submitter: {
@@ -656,7 +669,7 @@ window.quizConfig = {
           labelHtml:
             "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
           metaHtml:
-            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>>",
+            "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
             kind: "plan",
             program: "level_1",
