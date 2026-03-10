@@ -336,7 +336,7 @@ window.quizConfig = {
     qA5L2_intro_submitter: {
       id: "qA5L2_intro_submitter",
       type: "info",
-      headline: "We suggest our Level 2 - Daily Testing",
+      headlineHtml: "We suggest our Level 2 - Daily Testing",
       textHtml:
         "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
@@ -948,7 +948,7 @@ window.quizConfig = {
     qB3a_monitoredClientIntro_receiver: {
       id: "qB3a_monitoredClientIntro_receiver",
       type: "info",
-      headlineHtml: "Definition to Know",
+      headlineHtml: "<span style='color: #00abdf;'>Definition to Know</span>",
       textHtml:
         "The <span class='u-bold'>Monitored Client</span> is the person submitting Soberlink tests.",
       imageUrl:
@@ -996,11 +996,12 @@ window.quizConfig = {
     qB4b_level2_intro_receiver: {
       id: "qB4b_level2_intro_receiver",
       type: "info",
+      headlineHtml:
+        "Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:",
       textHtml:
-        "Because your Monitored Client needs to test on everyday, we suggest our:\n" +
-        "Level 2 - Daily Testing Program.",
+        "<span style='color: #00abdf; font-size: 26px;'>Level 2 - Daily Testing Program</span><br/>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
+        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b09a0c54e30e7580833743_level-2.avif",
       primaryCta: {
         label: "Next",
         nextId: "qB5a_level2_concernedIntro_receiver",
@@ -1173,10 +1174,10 @@ window.quizConfig = {
     qB4b_level1_intro_receiver: {
       id: "qB4b_level1_intro_receiver",
       type: "info",
+      headlineHtml:
+        "Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:",
       textHtml:
-        "Because your Monitored Client only needs to test on parenting days, we suggest our:\n" +
-        "Level 1 - Parenting Time Only Program.\n" +
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
+        "<span style='color: #00abdf; font-size: 26px;'>Level 1 - Parenting Time Only Program.</span><br/>This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qB5L1_testingDays_receiver" },
