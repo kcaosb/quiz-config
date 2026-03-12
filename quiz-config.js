@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-03",
+  version: "2026-03-12",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -67,7 +67,7 @@ window.quizConfig = {
           value: "submitTests",
           labelHtml: "I will be submitting tests.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be105c7bd17f44c6d354_Icon-cellular-device.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bbdcbd0ec72e582683_Icon-cellular-device-v2.avif",
             alt: "device icon",
           },
           nextId: "qA2_reasons_submitter",
@@ -336,7 +336,8 @@ window.quizConfig = {
     qA5L2_intro_submitter: {
       id: "qA5L2_intro_submitter",
       type: "info",
-      headlineHtml: "We suggest our Level 2 - Daily Testing",
+      headlineHtml:
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> Level 2 - Daily Testing",
       textHtml:
         "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
@@ -350,7 +351,7 @@ window.quizConfig = {
         "To keep everyone informed, your results must be shared with a “Concerned Party.”",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
-        alt: "More info",
+        alt: "Info icon",
         text: "Concerned Party",
       },
       infoLink: {
@@ -505,7 +506,8 @@ window.quizConfig = {
     qA5L1_intro_submitter: {
       id: "qA5L1_intro_submitter",
       type: "info",
-      headlineHtml: "We suggest our Level 1 - Parenting Time Only",
+      headlineHtml:
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> Level 1 - Parenting Time Only",
       textHtml:
         "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
@@ -997,9 +999,9 @@ window.quizConfig = {
       id: "qB4b_level2_intro_receiver",
       type: "info",
       headlineHtml:
-        "Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:</span><br/>Level 2 - Daily Testing Program",
       textHtml:
-        "<span style='color: #00abdf; font-size: 26px;'>Level 2 - Daily Testing Program</span><br/>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b09a0c54e30e7580833743_level-2.avif",
       primaryCta: {
@@ -1175,9 +1177,9 @@ window.quizConfig = {
       id: "qB4b_level1_intro_receiver",
       type: "info",
       headlineHtml:
-        "Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/>Level 1 - Parenting Time Only Program.",
       textHtml:
-        "<span style='color: #00abdf; font-size: 26px;'>Level 1 - Parenting Time Only Program.</span><br/>This plan allows you to test only on days that you need to show proof of sobriety.",
+        "<span style='font-size: 16px;>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qB5L1_testingDays_receiver" },
@@ -1210,7 +1212,7 @@ window.quizConfig = {
       ],
     },
     qB5a_concernedIntro_receiver: {
-      //TO DO, MOCK LIKE THE MODAL
+      //TO DO, MOCK LIKE THE qA6L2_shareScope_submitter
       id: "qB5a_concernedIntro_receiver",
       type: "info",
       text:
@@ -1389,7 +1391,8 @@ window.quizConfig = {
       type: "singleChoice",
       text:
         "The Monitored Client's test results will be shared with you.\n" +
-        "The results can also be shared with other Contacts like family members, friends, or treatment providers.",
+        "The results can also be shared with other Contacts like family members, friends, or treatment providers.\n" +
+        "Who would you like the results shared with?",
       options: [
         {
           value: "onlyMe",
@@ -1687,6 +1690,13 @@ window.quizConfig = {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
         alt: "Basic",
       },
+      // TO DO - ADD REFS FOR RESULTS
+      // priceRef: {
+      //   kind: "plan",
+      //   program: "level_2",
+      //   tier: "basic",
+      //   cadence: "mo",
+      // },
       nextId: "postPlan_router",
     },
     res_plan_level2_plus: {
@@ -1881,6 +1891,10 @@ window.quizConfig = {
         "Device\n" +
         "Monitored Client to Choose\n\n" +
         "Email Recommendations »",
+      deviceIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+        alt: "Unchosen Device",
+      },
       nextId: null,
     },
     res_final_own_connect: {
