@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-12",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -211,15 +211,15 @@ window.quizConfig = {
     qA3a_proactiveGettingAheadQuote: {
       id: "qA3a_proactiveGettingAheadQuote",
       type: "quote",
-      headlineHtml: "Happy to ‘Self-Report’",
+      headlineHtml: "Happy to ‘Prove My Truth’",
       subtitleHtml:
-        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+        "It was submitted to the courts that my past relationship with alcohol could interfere with my ability to parent. When it becomes someone's word against someone else's word, decisions can be made that aren't always right. Soberlink made it undeniable that the things that I was saying about my own recovery were the truth.",
       person: {
         image: {
           url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
-          alt: "Charles",
+          alt: "Evan",
         },
-        name: "Charles",
+        name: "Evan",
         attribution: "Soberlink Client",
       },
 
@@ -231,15 +231,15 @@ window.quizConfig = {
     qA3a_proactiveFalselyAccusedQuote: {
       id: "qA3a_proactiveFalselyAccusedQuote",
       type: "quote",
-      headlineHtml: "proactiveFalselyAccusedQuote",
+      headlineHtml: "The Proof Was Already There",
       subtitleHtml:
-        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+        "My ex-wife hired private investigators to try to catch me drinking while I was with my kids in an attempt to take away my parent rights. When we went to trial, my ex was still saying I had this severe alcohol problem. The judge looked at my 600 compliant Soberlink tests and determined that if I had one, I would have failed some of the tests. There's really indisputable evidence now, that I just don't have a problem with this.",
       person: {
         image: {
           url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
-          alt: "Charles",
+          alt: "Dustin",
         },
-        name: "Charles",
+        name: "Dustin",
         attribution: "Soberlink Client",
       },
 
@@ -251,15 +251,15 @@ window.quizConfig = {
     qA3a_proveSoberParentingTimeQuote: {
       id: "qA3a_proveSoberParentingTimeQuote",
       type: "quote",
-      headlineHtml: "proveSoberParentingTimeQuote",
+      headlineHtml: "Accountability Brought Peace of Mind",
       subtitleHtml:
-        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+        "I had picked my son up from school and I had been drinking. My husband had reached his limit and ended up filing for divorce. My attorney recommended that I use Soberlink to prove to the court that I was able to be with my children without drinking. It puts my husband's mind at ease knowing that there is that accountability piece. ",
       person: {
         image: {
           url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
-          alt: "Charles",
+          alt: "Sarah",
         },
-        name: "Charles",
+        name: "Sarah",
         attribution: "Soberlink Client",
       },
 
@@ -271,15 +271,15 @@ window.quizConfig = {
     qA3a_fullAbstinenceKeepKidsQuote: {
       id: "qA3a_fullAbstinenceKeepKidsQuote",
       type: "quote",
-      headlineHtml: "fullAbstinenceKeepKidsQuote",
+      headlineHtml: "You Can’t Put a Price on Time With Your Kids",
       subtitleHtml:
-        "Incorporating Soberlink into my sobriety journey has been a game-changer. Prior to initiating the service, I struggled with relapse.",
+        "My ex-husband had sole custody of my kids because of my alcohol abuse, and I was only allowed to see them under strict provisions. My parenting plan required alcohol testing. Soberlink is the best alcohol monitoring method there is for someone like me who's seriously alcoholic and needs daily accountability. It's worth every penny. You can't put a price on time with your child.",
       person: {
         image: {
           url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8d37552eee854072358f2_client.avif",
-          alt: "Charles",
+          alt: "Krista",
         },
-        name: "Charles",
+        name: "Krista",
         attribution: "Soberlink Client",
       },
 
@@ -507,7 +507,7 @@ window.quizConfig = {
       id: "qA5L1_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> Level 1 - Parenting Time Only",
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/><br/> Level 1 - Parenting Time Only",
       textHtml:
         "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
@@ -999,7 +999,7 @@ window.quizConfig = {
       id: "qB4b_level2_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:</span><br/>Level 2 - Daily Testing Program",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:</span><br/><br/>Level 2 - Daily Testing Program",
       textHtml:
         "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
@@ -1010,7 +1010,7 @@ window.quizConfig = {
       },
     },
     qB5a_level2_concernedIntro_receiver: {
-      //TO DO, MOCK LIKE THE MODAL
+      //TO DO: convert to lightbox
       id: "qB5a_level2_concernedIntro_receiver",
       type: "info",
       textHtml:
@@ -1177,7 +1177,7 @@ window.quizConfig = {
       id: "qB4b_level1_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/>Level 1 - Parenting Time Only Program.",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/><br/>Level 1 - Parenting Time Only Program.",
       textHtml:
         "<span style='font-size: 16px;>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
@@ -1679,6 +1679,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
+      // to do: add textHtml and remove text... well depending if its cp route, the textHtml would change... either make new nodes or some dynamic stuff.. it'd ei
       text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
@@ -1690,13 +1691,12 @@ window.quizConfig = {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
         alt: "Basic",
       },
-      // TO DO - ADD REFS FOR RESULTS
-      // priceRef: {
-      //   kind: "plan",
-      //   program: "level_2",
-      //   tier: "basic",
-      //   cadence: "mo",
-      // },
+      priceRef: {
+        kind: "plan",
+        program: "level_2",
+        tier: "basic",
+        cadence: "mo",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level2_plus: {
@@ -1718,6 +1718,12 @@ window.quizConfig = {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
         alt: "Plus",
       },
+      priceRef: {
+        kind: "plan",
+        program: "level_2",
+        tier: "plus",
+        cadence: "mo",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level2_premium: {
@@ -1738,6 +1744,12 @@ window.quizConfig = {
       planIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
         alt: "Premium",
+      },
+      priceRef: {
+        kind: "plan",
+        program: "level_2",
+        tier: "premium",
+        cadence: "mo",
       },
       nextId: "postPlan_router",
     },
@@ -1761,6 +1773,12 @@ window.quizConfig = {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
         alt: "Basic",
       },
+      priceRef: {
+        kind: "plan",
+        program: "level_1",
+        tier: "basic",
+        cadence: "mo",
+      },
       nextId: "postPlan_router",
     },
     res_plan_level1_plus: {
@@ -1781,6 +1799,12 @@ window.quizConfig = {
       planIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
         alt: "Plus",
+      },
+      priceRef: {
+        kind: "plan",
+        program: "level_1",
+        tier: "plus",
+        cadence: "mo",
       },
       nextId: "postPlan_router",
     },
@@ -1803,6 +1827,12 @@ window.quizConfig = {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
         alt: "Premium",
       },
+      priceRef: {
+        kind: "plan",
+        program: "level_1",
+        tier: "premium",
+        cadence: "mo",
+      },
       nextId: "postPlan_router",
     },
     res_plan_share_basic: {
@@ -1817,12 +1847,18 @@ window.quizConfig = {
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/688aa70a4aa70c72401a1784_e52682597e69004a549b6d3dfc6173aa993dd71c.avif",
         alt: "Share",
       },
       planIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c60995dc1a8007b27e9a6_Icon-Plan-Basic.avif",
         alt: "Basic",
+      },
+      priceRef: {
+        kind: "plan",
+        program: "share",
+        tier: "basic",
+        cadence: "mo",
       },
       nextId: "postPlan_router",
     },
@@ -1838,12 +1874,18 @@ window.quizConfig = {
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/688aa70a4aa70c72401a1784_e52682597e69004a549b6d3dfc6173aa993dd71c.avif",
         alt: "Share",
       },
       planIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6849d98a1658cd2a8a322523_2084acb108cdee46636c09513576294ea46cbf9c.avif",
         alt: "Plus",
+      },
+      priceRef: {
+        kind: "plan",
+        program: "share",
+        tier: "plus",
+        cadence: "mo",
       },
       nextId: "postPlan_router",
     },
@@ -1859,12 +1901,18 @@ window.quizConfig = {
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/688aa70a4aa70c72401a1784_e52682597e69004a549b6d3dfc6173aa993dd71c.avif",
         alt: "Share",
       },
       planIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/684c6099560a81fb3eccf802_Icon-Plan-Premium.avif",
         alt: "Premium",
+      },
+      priceRef: {
+        kind: "plan",
+        program: "share",
+        tier: "premium",
+        cadence: "mo",
       },
       nextId: "postPlan_router",
     },
@@ -1876,6 +1924,7 @@ window.quizConfig = {
         "The best next step is to talk with a specialist who can help tailor a solution.",
       primaryCta: { label: "Done", nextId: null },
     },
+    //to do: this doesn't show..
     res_final_plan_only_device_by_monitored_client: {
       id: "res_final_plan_only_device_by_monitored_client",
       type: "final",
