@@ -1678,7 +1678,7 @@ window.quizConfig = {
           value: "fourMonths",
           labelHtml:
             "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> 4 months.",
-          metaHtml: "<div style='font-size: 16px;'>Connect Device</div>",
+          metaHtml: "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
           subMetaHtml: "Requires a 120-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
