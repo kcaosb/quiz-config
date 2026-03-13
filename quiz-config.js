@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-03",
+  version: "2026-03-13",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -1669,6 +1669,22 @@ window.quizConfig = {
       ],
     },
   },
+  planFooters: {
+    submitter: {
+      textHtml: "Now, let’s select your device.",
+      ctaLabel: "Next",
+    },
+    receiver: {
+      textHtml:
+        "Your Monitored Client will be able to choose their Device.<br><br>" +
+        "<strong>Devices</strong> start at {RENT_START}/mo to rent or {BUY_START} to buy.",
+      textTokens: {
+        RENT_START: { kind: "deviceMin", commitment: "rent 365" },
+        BUY_START: { kind: "deviceMin", commitment: "buy" },
+      },
+      ctaLabel: "See Device Options",
+    },
+  },
   results: {
     res_plan_level2_basic: {
       id: "res_plan_level2_basic",
@@ -1678,8 +1694,9 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
-      // to do: add textHtml and remove text... well depending if its cp route, the textHtml would change... either make new nodes or some dynamic stuff.. it'd ei
-      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+      //to do: text should describe the plan
+      textHtml:
+        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1706,7 +1723,8 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
-      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+      textHtml:
+        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1733,7 +1751,8 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
-      text: "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+      textHtml:
+        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1761,7 +1780,8 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Basic",
-      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
+      textHtml:
+        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
@@ -1788,7 +1808,8 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
-      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
+      textHtml:
+        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
@@ -1815,7 +1836,8 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
-      text: "This plan allows you to test only on days that you need to show proof of sobriety.",
+      textHtml:
+        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
@@ -1842,7 +1864,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Basic",
-      text: "Now, let’s select your device.",
+      textHtml: "",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
@@ -1869,7 +1891,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Plus",
-      text: "Now, let’s select your device.",
+      textHtml: "",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
@@ -1896,7 +1918,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Premium",
-      text: "Now, let’s select your device.",
+      textHtml: "",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be1104143954697ecea4_Share.avif",
       programIcon: {
