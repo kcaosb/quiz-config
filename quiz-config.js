@@ -1625,7 +1625,7 @@ window.quizConfig = {
             alt: "{CONNECT_FAMILY_LABEL}",
           },
           nextId: "res_final_own_connect",
-        }
+        },
         {
           value: "cellular 2",
           title: "Cellular 2",
