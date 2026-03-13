@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-03-13",
+  version: "2026-03-03",
   startId: "intro_start",
   modals: {
     concernedPartyInfo: {
@@ -1006,28 +1006,25 @@ window.quizConfig = {
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b09a0c54e30e7580833743_level-2.avif",
       primaryCta: {
         label: "Next",
-        nextId: "qB5a_level2_concernedIntro_receiver",
-      },
-    },
-    qB5a_level2_concernedIntro_receiver: {
-      //TO DO: convert to lightbox
-      id: "qB5a_level2_concernedIntro_receiver",
-      type: "info",
-      textHtml:
-        "What is a Concerned Party?" +
-        "The “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in the child’s wellbeing.",
-      imageUrl:
-        "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
-      primaryCta: {
-        label: "Continue",
         nextId: "qB6_level2_shareScope_receiver",
       },
     },
-    // level 2 results shared with
+    
     qB6_level2_shareScope_receiver: {
       id: "qB6_level2_shareScope_receiver",
       type: "singleChoice",
-      text: "Who else do the results need to be shared with?",
+      introText:
+        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
+      infoIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
+        alt: "Info icon",
+        text: "Concerned Party",
+      },
+      infoLink: {
+        type: "lightbox",
+        id: "concernedPartyInfo",
+        labelHtml: "Concerned Party info",
+      },
       options: [
         {
           value: "onlyMe",
