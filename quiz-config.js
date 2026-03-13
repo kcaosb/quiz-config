@@ -1616,16 +1616,16 @@ window.quizConfig = {
       options: [
         {
           value: "connect",
-          title: "Connect",
+          title: "{CONNECT_FAMILY_LABEL}",
           subtitle: "No minimum monitoring commitment required",
-          descriptionHtml: `Bluetooth device uses smartphone to transmit test results.<br><span style='color: #00abdf; font-size: 10px;'>'Smartphone pairing required.</span>`,
+          descriptionHtml: `Bluetooth device uses smartphone to transmit test results.<br><span style='color: #00abdf; font-size: 10px;'>Smartphone pairing required.</span>`,
           priceRef: { kind: "device", device: "connect", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
-            alt: "Connect",
+            alt: "{CONNECT_FAMILY_LABEL}",
           },
           nextId: "res_final_own_connect",
-        },
+        }
         {
           value: "cellular 2",
           title: "Cellular 2",
