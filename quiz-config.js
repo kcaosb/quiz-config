@@ -1009,7 +1009,7 @@ window.quizConfig = {
         nextId: "qB6_level2_shareScope_receiver",
       },
     },
-    
+
     qB6_level2_shareScope_receiver: {
       id: "qB6_level2_shareScope_receiver",
       type: "singleChoice",
@@ -1194,7 +1194,7 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be108f33f4d708defb0b_Icon-Calendar-20-Days.avif",
             alt: "calendar icon",
           },
-          nextId: "qB5a_concernedIntro_receiver",
+          nextId: "qB6_shareScope_receiver",
         },
         {
           value: "needMoreThanTwenty",
@@ -1208,19 +1208,21 @@ window.quizConfig = {
         },
       ],
     },
-    qB5a_concernedIntro_receiver: {
-      //TO DO, MOCK LIKE THE qA6L2_shareScope_submitter
-      id: "qB5a_concernedIntro_receiver",
-      type: "info",
-      text:
-        "What is a Concerned Party?" +
-        "The “Concerned Party,” often a co-parent, guardian, or attorney, is someone who helps play a supportive role in the child’s wellbeing.",
-      primaryCta: { label: "Continue", nextId: "qB6_shareScope_receiver" },
-    },
     qB6_shareScope_receiver: {
       id: "qB6_shareScope_receiver",
       type: "singleChoice",
-      text: "Who else do the results need to be shared with?",
+      introText:
+        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
+      infoIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
+        alt: "Info icon",
+        text: "Concerned Party",
+      },
+      infoLink: {
+        type: "lightbox",
+        id: "concernedPartyInfo",
+        labelHtml: "Concerned Party info",
+      },
       options: [
         {
           value: "onlyMe",
