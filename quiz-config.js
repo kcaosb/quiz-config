@@ -1,6 +1,31 @@
 window.quizConfig = {
   version: "2026-03-13",
   startId: "intro_start",
+  activeConnectVariant: "s7", //use s7 when 7.0 is live
+  deviceVariants: {
+    connect: {
+      connect: {
+        label: "Connect",
+        param: "connect",
+        imageUrl:
+          "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+      },
+      s7: {
+        label: "Soberlink 7.0",
+        param: "s7",
+        imageUrl:
+          "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/68cd9c1923caa0a031c70739_soberlink7-dec-tree-100px-w.avif",
+      },
+    },
+    "cellular 2": {
+      default: {
+        label: "Cellular 2",
+        param: "cellular 2",
+        imageUrl:
+          "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
+      },
+    },
+  },
   modals: {
     concernedPartyInfo: {
       titleHtml: "<strong>What is a Concerned Party?</strong>",
@@ -1677,7 +1702,7 @@ window.quizConfig = {
     receiver: {
       textHtml:
         "Your Monitored Client will be able to choose their Device.<br><br>" +
-        "<strong>Devices</strong> start at {RENT_START}/mo to rent or {BUY_START} to buy.",
+        "<span class='u-bold'>Devices</span> start at <span class='u-bold'>{RENT_START}/mo</span> to rent <span class='u-bold'>or {BUY_START}</span> to buy.",
       textTokens: {
         RENT_START: { kind: "deviceMin", commitment: "rent 365" },
         BUY_START: { kind: "deviceMin", commitment: "buy" },
@@ -1836,8 +1861,7 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
-      textHtml:
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
+      textHtml: "This plan has unlimited testing days.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
