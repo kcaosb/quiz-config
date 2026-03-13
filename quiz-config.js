@@ -1659,7 +1659,8 @@ window.quizConfig = {
               alt: "info",
             },
           },
-          metaHtml: "<div style='font-size: 16px;'>Connect Device</div>",
+          metaHtml:
+            "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
           subMetaHtml: "Requires a 365-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
