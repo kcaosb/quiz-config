@@ -1,7 +1,7 @@
 window.quizConfig = {
-  version: "2026-03-13",
+  version: "2026-03-17",
   startId: "intro_start",
-  activeConnectVariant: "s7", //use s7 when 7.0 is live
+  activeConnectVariant: "connect", //use s7 when 7.0 is live, use connect when Connect is live
   deviceVariants: {
     connect: {
       connect: {
@@ -1678,7 +1678,8 @@ window.quizConfig = {
           value: "fourMonths",
           labelHtml:
             "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> 4 months.",
-          metaHtml: "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
+          metaHtml:
+            "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
           subMetaHtml: "Requires a 120-Day Monitoring Commitment",
           priceRef: {
             kind: "device",
