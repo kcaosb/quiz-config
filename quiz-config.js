@@ -367,7 +367,7 @@ window.quizConfig = {
         "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
-      primaryCta: { label: "Continue", nextId: "qA6L2_shareScope_submitter" },
+      primaryCta: { label: "Next", nextId: "qA6L2_shareScope_submitter" },
     },
     qA6L2_shareScope_submitter: {
       id: "qA6L2_shareScope_submitter",
@@ -537,7 +537,7 @@ window.quizConfig = {
         "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
-      primaryCta: { label: "Continue", nextId: "qA6L1_testingDays_submitter" },
+      primaryCta: { label: "Next", nextId: "qA6L1_testingDays_submitter" },
     },
     qA6L1_testingDays_submitter: {
       id: "qA6L1_testingDays_submitter",
