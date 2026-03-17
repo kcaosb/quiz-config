@@ -1721,9 +1721,6 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
-      //to do: text should describe the plan
-      textHtml:
-        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1750,8 +1747,6 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
-      textHtml:
-        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1778,8 +1773,6 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
-      textHtml:
-        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/5f88919e0edbe064d62be70d_FL-Resources-5-Level2%20copy.avif",
       programIcon: {
@@ -1807,8 +1800,6 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Basic",
-      textHtml:
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
@@ -1835,8 +1826,6 @@ window.quizConfig = {
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
-      textHtml:
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       programIcon: {
