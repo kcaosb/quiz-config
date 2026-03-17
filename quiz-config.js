@@ -1698,13 +1698,22 @@ window.quizConfig = {
   },
   planFooters: {
     submitter: {
-      textHtml: "Now, let’s select your device.",
+      textHtml: `
+        <div style="text-align: center; font-size: 24px;">
+          Now, let’s select your device.
+        </div>
+      `,
       ctaLabel: "Next",
     },
     receiver: {
-      textHtml:
-        "Your Monitored Client will be able to choose their Device.<br><br>" +
-        "<span class='u-bold'>Devices</span> start at <span class='u-bold'>{RENT_START}/mo</span> to rent <span class='u-bold'>or {BUY_START}</span> to buy.",
+      textHtml: `
+        <div style="text-align: left; font-size: 16px;">
+          Your Monitored Client will be able to choose their Device.<br><br>
+          <span class='u-bold'>Devices</span> start at 
+          <span class='u-bold'>{RENT_START}/mo</span> 
+          to rent <span class='u-bold'>or {BUY_START}</span> to buy.
+        </div>
+      `,
       textTokens: {
         RENT_START: { kind: "deviceMin", commitment: "rent 365" },
         BUY_START: { kind: "deviceMin", commitment: "buy" },
