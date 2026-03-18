@@ -1724,7 +1724,7 @@ window.quizConfig = {
         <div style="text-align: left; font-size: 16px;">
           Your Monitored Client will be able to choose their Device.<br><br>
           <span class='u-bold'>Devices</span> start at 
-          <span class='u-bold'>{RENT_START}<span style='font-size: 14px;'>/mo></span></span> 
+          <span class='u-bold'>{RENT_START}<span style='font-size: 14px;'>/mo</span></span> 
           to rent <span class='u-bold'>or {BUY_START}</span> to buy.
         </div>
       `,
@@ -1732,7 +1732,7 @@ window.quizConfig = {
         RENT_START: { kind: "deviceMin", commitment: "rent 365" },
         BUY_START: { kind: "deviceMin", commitment: "buy" },
       },
-      ctaLabel: "See Device Options",
+      ctaLabel: "See Results",
     },
   },
   results: {
