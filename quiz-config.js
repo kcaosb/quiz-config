@@ -66,7 +66,7 @@ window.quizConfig = {
     },
     maxAndCami: {
       titleHtml: "Max and Cami's Story",
-      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
+      videoUrl: "https://www.youtube.com/embed/QrmptnNaV7A",
     },
     emailResults: {
       titleHtml: "<strong>Email me my results</strong>",
@@ -1420,8 +1420,14 @@ window.quizConfig = {
         {
           id: "maxAndCami",
           title: "Watch Max and Cami's Story",
-          icon: { url: "...", alt: "Story icon" },
-          image: { url: "...", alt: "Testimony thumbnail" },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bc6030135e0f4cc006_icon-play-blue.avif",
+            alt: "Story icon",
+          },
+          image: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69bade14b9084d6258be21ca_Max-Cami-Cover-Help-Me-Choose.avif",
+            alt: "Testimony thumbnail",
+          },
           opensModalId: "maxAndCami",
         },
       ],
