@@ -933,9 +933,8 @@ window.quizConfig = {
     qB2_criminalJustice_end_receiver: {
       id: "qB2_criminalJustice_end_receiver",
       type: "info",
-      text:
-        "Soberlink is designed for family law, treatment, and recovery support.\n\n" +
-        "For criminal justice monitoring, we recommend visiting bi.com.",
+      textHtml:
+        "Soberlink is designed for family law, treatment, and recovery support. For criminal justice monitoring, we recommend visiting <a href='https://bi.com/' target='_blank' rel='noopener noreferrer'>bi.com</a>.",
       primaryCta: { label: "Done", nextId: null },
     },
     qB2_incomplete_other: {
@@ -1999,7 +1998,7 @@ window.quizConfig = {
         "The best next step is to talk with a specialist who can help tailor a solution.",
       primaryCta: { label: "Done", nextId: null },
     },
-    //to do: this doesn't show..
+    //to do: this doesn't show.. delete?
     res_final_plan_only_device_by_monitored_client: {
       id: "res_final_plan_only_device_by_monitored_client",
       type: "final",
@@ -2016,7 +2015,7 @@ window.quizConfig = {
         "Monitored Client to Choose\n\n" +
         "Email Recommendations »",
       deviceIcon: {
-        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bcc03ce6233af92e9f_Icon-Unchoosen-Device.avif",
         alt: "Unchosen Device",
       },
       nextId: null,
