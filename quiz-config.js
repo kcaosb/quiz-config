@@ -660,7 +660,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "UNLIMITED TESTING DAYS",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -1582,7 +1582,7 @@ window.quizConfig = {
       type: "info",
       textHtml:
         "Your Monitored Client will be able to choose their Device.<br><br>" +
-        "Devices start at {RENT_START}/mo to rent or {BUY_START} to buy.<br><br>" +
+        "Devices start at {RENT_START}<span style='font-size: 13px;'>/mo</span> to rent or {BUY_START} to buy.<br><br>" +
         "Soberlink is the ultimate investment in safety and trust - because peace of mind is priceless.<br><br>" +
         "Device - Monitored Client to Choose",
       textTokens: {
@@ -1600,7 +1600,7 @@ window.quizConfig = {
         {
           value: "rent",
           labelHtml:
-            "Rent My Device <span class='u-normal'>from</span> {PRICE}/mo <ul class='u-normal'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
+            "Rent My Device <span class='u-normal'>from</span> {PRICE}<span style='font-size: 13px;'>/mo</span> <ul class='u-normal'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a74e856cfb277a88a9ea3f_rent.avif",
@@ -1741,6 +1741,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_2",
       planKey: "basic",
+      programDisplay: "Level 2 Daily Testing",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Basic",
@@ -1767,6 +1768,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_2",
       planKey: "plus",
+      programDisplay: "Level 2 Daily Testing",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Plus",
@@ -1793,6 +1795,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_2",
       planKey: "premium",
+      programDisplay: "Level 2 Daily Testing",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 2",
       plan: "Premium",
@@ -1820,6 +1823,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_1",
       planKey: "basic",
+      programDisplay: "Level 1 Parenting Time Only",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Basic",
@@ -1846,6 +1850,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_1",
       planKey: "plus",
+      programDisplay: "Level 1 Parenting Time Only",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Plus",
@@ -1872,6 +1877,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "level_1",
       planKey: "premium",
+      programDisplay: "Level 1 Parenting Time Only",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Level 1",
       plan: "Premium",
@@ -1899,6 +1905,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "share",
       planKey: "basic",
+      programDisplay: "Share Program",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Basic",
@@ -1926,6 +1933,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "share",
       planKey: "plus",
+      programDisplay: "Share Program",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Plus",
@@ -1953,6 +1961,7 @@ window.quizConfig = {
       type: "plan",
       programKey: "share",
       planKey: "premium",
+      programDisplay: "Share Program",
       headlineHtml: "We’ve selected a plan for you:",
       program: "Share",
       plan: "Premium",
