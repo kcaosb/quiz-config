@@ -56,12 +56,13 @@ window.quizConfig = {
       ],
     },
     womanStory: {
-      titleHtml: "Women’s Story",
-      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
+      titleHtml:
+        "Choosing Support Over Stigma: Investing in Solutions That Work Story",
+      videoUrl: "https://www.youtube.com/embed/2ZjxjjW1SZA",
     },
     manStory: {
-      titleHtml: "Man’s Story",
-      videoUrl: "https://www.youtube.com/embed/Eg8U69Ui41U",
+      titleHtml: "When Building Back Trust is in the Best Interest of the Kids",
+      videoUrl: "https://www.youtube.com/embed/C6nturMK390",
     },
     maxAndCami: {
       titleHtml: "Max and Cami's Story",
@@ -835,7 +836,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
-          metaHtml: "<span class='u-bold;'>Plus Plan</span>",
+          metaHtml: "<span class='u-bold; color: #00ABDF;'>Plus Plan</span>",
           priceRef: {
             kind: "plan",
             program: "share",
@@ -851,7 +852,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed and texted in real-time.",
-          metaHtml: "<span class='u-bold;'>Premium Plan</span>",
+          metaHtml: "<span class='u-bold; color: #1C4A82;'>Premium Plan</span>",
           priceRef: {
             kind: "plan",
             program: "share",
@@ -954,16 +955,29 @@ window.quizConfig = {
       stories: [
         {
           id: "womanStory",
-          title: "Watch Women’s Story",
-          icon: { url: "...", alt: "Story icon" },
-          image: { url: "...", alt: "Testimony thumbnail" },
+          title:
+            "Choosing Support Over Stigma: Investing in Solutions That Work",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bc6030135e0f4cc006_icon-play-blue.avif",
+            alt: "play icon",
+          },
+          image: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b9e825eea73494532e19a5_story-1.avif",
+            alt: "Testimony thumbnail",
+          },
           opensModalId: "womanStory",
         },
         {
           id: "manStory",
-          title: "Watch Man’s Story",
-          icon: { url: "...", alt: "Story icon" },
-          image: { url: "...", alt: "Testimony thumbnail" },
+          title: "When Building Back Trust is in the Best Interest of the Kids",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bc6030135e0f4cc006_icon-play-blue.avif",
+            alt: "play icon",
+          },
+          image: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b9e8254f0a53613fcbe744_story-2.avif",
+            alt: "Testimony thumbnail",
+          },
           opensModalId: "manStory",
         },
       ],
@@ -1710,7 +1724,7 @@ window.quizConfig = {
         <div style="text-align: left; font-size: 16px;">
           Your Monitored Client will be able to choose their Device.<br><br>
           <span class='u-bold'>Devices</span> start at 
-          <span class='u-bold'>{RENT_START}/mo</span> 
+          <span class='u-bold'>{RENT_START}<span style='font-size: 14px;'>/mo></span></span> 
           to rent <span class='u-bold'>or {BUY_START}</span> to buy.
         </div>
       `,
