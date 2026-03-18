@@ -730,15 +730,13 @@ window.quizConfig = {
       id: "qA3_share_contacts_submitter",
       type: "singleChoice",
       //to do - reformat
-      text:
-        "Let us help you prove your sobriety.\n" +
-        "A “Contact” is a person who will receive your results.\n" +
-        "This is typically a family member, friend, or treatment provider.",
+      textHtml:
+        "Let us help you prove your sobriety. <br/> <br/>A “Contact” is a person who will receive your results. This is typically a family member, friend, or treatment provider.<br/><br/>Who would you like to share your results with?",
       options: [
         {
           value: "oneContact",
           labelHtml:
-            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'> with</span> one contact",
+            "<span class='u-normal'>I need my</span> results shared <span class='u-normal'> with</span> one contact.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
             alt: "one person",
