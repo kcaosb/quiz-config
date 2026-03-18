@@ -363,9 +363,9 @@ window.quizConfig = {
       id: "qA5L2_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> Level 2 - Daily Testing",
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> <span style='color: #00abdf;'>'Level 2 - Daily Testing Program</span>",
       textHtml:
-        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+        "<span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qA6L2_shareScope_submitter" },
@@ -533,9 +533,9 @@ window.quizConfig = {
       id: "qA5L1_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/><br/> Level 1 - Parenting Time Only",
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program</span>",
       textHtml:
-        "This plan allows you to test only on days that you need to show proof of sobriety.",
+        "<span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8913be2c8175724ce3d4f_Level-1-Photo%201.avif",
       primaryCta: { label: "Next", nextId: "qA6L1_testingDays_submitter" },
@@ -1038,9 +1038,9 @@ window.quizConfig = {
       id: "qB4b_level2_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test on everyday,</span> we suggest our:</span><br/><br/>Level 2 - Daily Testing Program",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test everyday,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
       textHtml:
-        "Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.",
+        "<span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
       imageUrl:
         "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b09a0c54e30e7580833743_level-2.avif",
       primaryCta: {
@@ -1213,7 +1213,7 @@ window.quizConfig = {
       id: "qB4b_level1_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/><br/>Level 1 - Parenting Time Only Program.",
+        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span>",
       textHtml:
         "<span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
