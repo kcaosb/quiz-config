@@ -363,7 +363,7 @@ window.quizConfig = {
       id: "qA5L2_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
+        "<span style='font-weight: bold; font-size: 24px;'>We suggest our</span><br/><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
       textHtml:
         "<span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
       imageUrl:
@@ -729,6 +729,7 @@ window.quizConfig = {
     qA3_share_contacts_submitter: {
       id: "qA3_share_contacts_submitter",
       type: "singleChoice",
+      //to do - reformat
       text:
         "Let us help you prove your sobriety.\n" +
         "A “Contact” is a person who will receive your results.\n" +
@@ -836,7 +837,8 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time.",
-          metaHtml: "<span class='u-bold; color: #00ABDF;'>Plus Plan</span>",
+          metaHtml:
+            "<div class='u-bold' style='color: #00abdf;'>Plus Plan</div>",
           priceRef: {
             kind: "plan",
             program: "share",
@@ -852,7 +854,8 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed and texted in real-time.",
-          metaHtml: "<span class='u-bold; color: #1C4A82;'>Premium Plan</span>",
+          metaHtml:
+            "<div class='u-bold' style='color: #1C4A82;'>Premium Plan</div>",
           priceRef: {
             kind: "plan",
             program: "share",
@@ -1412,7 +1415,7 @@ window.quizConfig = {
       type: "stories",
       headline: "We’ll tailor a plan that best fits your needs.",
       subheadlineHtml:
-        "But first, take a look at a story you might connect with.",
+        "But first, <span class='u-bold'>take a look at a story you might connect with.</span>",
       stories: [
         {
           id: "maxAndCami",
