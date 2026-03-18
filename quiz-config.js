@@ -702,7 +702,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1133,7 +1133,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1185,7 +1185,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1331,7 +1331,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1383,7 +1383,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texts <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1513,7 +1513,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed and texts in real time",
+            "<span class='u-normal'>I want the</span> test results emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceRef: {
