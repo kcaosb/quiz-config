@@ -1680,7 +1680,7 @@ window.quizConfig = {
       type: "singleChoice",
       text: "How long do you plan on using Soberlink? Pay less by monitoring longer.",
       choiceLayout: "rentDeviceCards",
-      size: "xlg",
+      size: "xxlg",
       options: [
         {
           value: "oneYear",
