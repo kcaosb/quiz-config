@@ -843,6 +843,13 @@ window.quizConfig = {
             tier: "plus",
             cadence: "mo",
           },
+          badge: {
+            label: "MOST POPULAR",
+            icon: {
+              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+              alt: "star icon",
+            },
+          },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
@@ -863,13 +870,6 @@ window.quizConfig = {
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "Email and phone",
-          },
-          badge: {
-            label: "MOST POPULAR",
-            icon: {
-              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
-              alt: "star icon",
-            },
           },
           nextId: "res_plan_share_premium",
         },
