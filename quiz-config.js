@@ -1615,7 +1615,7 @@ window.quizConfig = {
       id: "qD1_paymentPreference",
       type: "singleChoice",
       text: "Which payment method do you prefer?",
-      size: "xlg",
+      size: "xxlg",
       options: [
         {
           value: "rent",
