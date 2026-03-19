@@ -1445,10 +1445,17 @@ window.quizConfig = {
     qB4_share_scope_receiver: {
       id: "qB4_share_scope_receiver",
       type: "singleChoice",
-      text:
-        "The Monitored Client's test results will be shared with you.\n" +
-        "The results can also be shared with other Contacts like family members, friends, or treatment providers.\n" +
-        "Who would you like the results shared with?",
+      textHtml: "Who would you like the results shared with?",
+      infoIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
+        alt: "Info icon",
+        text: "Contact",
+      },
+      infoLink: {
+        type: "lightbox",
+        id: "contactInfo",
+        labelHtml: "Contact info",
+      },
       options: [
         {
           value: "onlyMe",
