@@ -482,7 +482,6 @@ window.quizConfig = {
         },
       ],
     },
-    //to do todo
     qA7L2_notify_manyContacts_submitter: {
       id: "qA7L2_notify_manyContacts_submitter",
       type: "singleChoice",
@@ -494,7 +493,7 @@ window.quizConfig = {
           value: "emailRealtime",
           labelHtml: "My test results will be emailed in real-time",
           metaHtml:
-            "<span class='u-bold;' style='color: #00ABDF;'>Plus Plan</span>",
+            "<span class='u-bold' style='color: #00ABDF;'>Plus Plan</span>",
           priceRef: {
             kind: "plan",
             program: "level_2",
@@ -511,7 +510,7 @@ window.quizConfig = {
           value: "emailTextRealtime",
           labelHtml: "My test results will be emailed and texted in real-time",
           metaHtml:
-            "<span class='u-bold;' style='color: #1C4A82'>Premium Plan</span>",
+            "<span class='u-bold' style='color: #1C4A82'>Premium Plan</span>",
           priceRef: {
             kind: "plan",
             program: "level_2",
