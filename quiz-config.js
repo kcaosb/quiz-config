@@ -1,7 +1,7 @@
 window.quizConfig = {
   version: "2026-03-17",
   startId: "intro_start",
-  activeConnectVariant: "connect", //use s7 when 7.0 is live, use connect when Connect is live
+  activeConnectVariant: "s7", //use s7 when 7.0 is live, use connect when Connect is live
   deviceVariants: {
     connect: {
       connect: {
