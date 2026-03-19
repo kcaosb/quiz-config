@@ -55,6 +55,11 @@ window.quizConfig = {
         },
       ],
     },
+    contactInfo: {
+      titleHtml: "<strong>What is a Contact?</strong>",
+      bodyHtml:
+        "A “Contact” is a person who will receive your results. This is typically a family member, friend, or treatment provider.",
+    },
     womanStory: {
       titleHtml:
         "Choosing Support Over Stigma: Investing in Solutions That Work Story",
@@ -729,9 +734,18 @@ window.quizConfig = {
     qA3_share_contacts_submitter: {
       id: "qA3_share_contacts_submitter",
       type: "singleChoice",
-      //to do - reformat
       textHtml:
-        "Let us help you prove your sobriety. <br/> <br/>A “Contact” is a person who will receive your results. This is typically a family member, friend, or treatment provider.<br/><br/>Who would you like to share your results with?",
+        "Let us help you prove your sobriety. Who would you like to share your results with?",
+      infoIcon: {
+        url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
+        alt: "Info icon",
+        text: "Contact",
+      },
+      infoLink: {
+        type: "lightbox",
+        id: "contactInfo",
+        labelHtml: "Contact info",
+      },
       options: [
         {
           value: "oneContact",
