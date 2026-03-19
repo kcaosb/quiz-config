@@ -1620,7 +1620,7 @@ window.quizConfig = {
         {
           value: "rent",
           labelHtml:
-            "Rent My Device <span class='u-normal'>from</span> {PRICE}<span style='font-size: 13px;'>/mo</span> <ul class='u-normal'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
+            "Rent My Device <span class='u-normal'>from</span> {PRICE}<span style='font-size: 13px;'>/mo</span> <ul class='u-normal' style='font-size: 14px;'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a74e856cfb277a88a9ea3f_rent.avif",
@@ -1631,7 +1631,7 @@ window.quizConfig = {
         {
           value: "own",
           labelHtml:
-            "Own My Device <span class='u-normal'>from</span> {PRICE} <ul class='u-normal'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
+            "Own My Device <span class='u-normal'>from</span> {PRICE} <ul class='u-normal' style='font-size: 14px;'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
           priceRef: { kind: "deviceMin", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a74e8505f049feec68cc6e_buy.avif",
