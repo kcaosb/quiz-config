@@ -191,10 +191,9 @@ window.quizConfig = {
     qA2_criminalJustice_end_submitter: {
       id: "qA2_criminalJustice_end_submitter",
       type: "info",
-      text:
-        "Soberlink is designed for family law, treatment, and recovery support.\n\n" +
-        "For criminal justice monitoring, we recommend visiting bi.com.",
-      primaryCta: { label: "Done", nextId: null },
+      textHtml:
+        "Soberlink is designed for family law, treatment, and recovery support. For criminal justice monitoring, we recommend visiting <a href='https://bi.com/' target='_blank' rel='noopener noreferrer'>bi.com</a>.",
+      primaryCta: { label: "Start Over", nextId: null },
     },
     qA3_custody_context: {
       id: "qA3_custody_context",
@@ -949,7 +948,7 @@ window.quizConfig = {
       type: "info",
       textHtml:
         "Soberlink is designed for family law, treatment, and recovery support. For criminal justice monitoring, we recommend visiting <a href='https://bi.com/' target='_blank' rel='noopener noreferrer'>bi.com</a>.",
-      primaryCta: { label: "Done", nextId: null },
+      primaryCta: { label: "Start Over", nextId: null },
     },
     qB2_incomplete_other: {
       id: "qB2_incomplete_other",
