@@ -1026,10 +1026,10 @@ window.quizConfig = {
           value: "everyDay",
           labelHtml:
             "<span class='u-normal'>Your</span> Monitored Client<span class='u-normal'> needs to</span> test every day.",
-          // icon: {
-          //   url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
-          //   alt: "calendar with all days highlighted icon",
-          // },
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+            alt: "calendar with all days highlighted icon",
+          },
           // badge: {
           //   label: "EXPERTS SUGGEST TESTING EVERY DAY",
           //   icon: {
