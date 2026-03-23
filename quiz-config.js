@@ -382,7 +382,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
-        text: "Concerned Party",
+        text: "What is a Concerned Party?",
       },
       infoLink: {
         type: "lightbox",
@@ -422,7 +422,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
+            "<span class='u-normal'>My test results will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -440,7 +440,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed in real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -458,7 +458,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed and texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -468,7 +468,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "INCLUDES 50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -491,7 +491,8 @@ window.quizConfig = {
       options: [
         {
           value: "emailRealtime",
-          labelHtml: "My test results will be emailed in real-time",
+          labelHtml:
+            "<span class='u-normal'>My test results will be</span> emailed in real-time",
           metaHtml:
             "<span class='u-bold' style='color: #00ABDF;'>Plus Plan</span>",
           priceRef: {
@@ -508,7 +509,8 @@ window.quizConfig = {
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "My test results will be emailed and texted in real-time",
+          labelHtml:
+            "<span class='u-normal'>My test results will be</span> emailed and texted in real-time",
           metaHtml:
             "<span class='u-bold' style='color: #1C4A82'>Premium Plan</span>",
           priceRef: {
@@ -518,7 +520,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "INCLUDES 50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -617,7 +619,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
+            "<span class='u-normal'>My test results will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -635,7 +637,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed in real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -653,7 +655,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed and texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -687,7 +689,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -705,7 +707,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -737,7 +739,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
-        text: "Contact",
+        text: "What is a Contact?",
       },
       infoLink: {
         type: "lightbox",
@@ -777,7 +779,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed the next day.",
+            "<span class='u-normal'>My test results will be</span> emailed the next day.",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -795,7 +797,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>in</span> real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed in real-time.",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -820,7 +822,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>My</span> test results <span class='u-normal'>will be</span> emailed <span class='u-normal'>and</span> texted in real-time.",
+            "<span class='u-normal'>My test results will be</span> emailed and texted in real-time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceRef: {
@@ -846,7 +848,9 @@ window.quizConfig = {
       options: [
         {
           value: "emailRealtime",
-          labelHtml: "My test results will be emailed in real-time.",
+          // - bold words
+          labelHtml:
+            "<span class='u-normal'>My test results will be</span> emailed in real-time.",
           metaHtml:
             "<div class='u-bold' style='color: #00abdf;'>Plus Plan</div>",
           priceRef: {
@@ -870,7 +874,8 @@ window.quizConfig = {
         },
         {
           value: "emailTextRealtime",
-          labelHtml: "My test results will be emailed and texted in real-time.",
+          labelHtml:
+            "<span class='u-normal'>My test results will be</span> emailed and texted in real-time.",
           metaHtml:
             "<div class='u-bold' style='color: #1C4A82;'>Premium Plan</div>",
           priceRef: {
@@ -1015,23 +1020,23 @@ window.quizConfig = {
       id: "qB4_monitoredClientFrequency",
       type: "singleChoice",
       text: "With your <span class='u-bold'>Monitored Client,</span> which option most fits your situation?",
-      size: "lg",
+      // size: "lg",
       options: [
         {
           value: "everyDay",
           labelHtml:
             "<span class='u-normal'>Your</span> Monitored Client<span class='u-normal'> needs to</span> test every day.",
-          icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
-            alt: "calendar with all days highlighted icon",
-          },
-          badge: {
-            label: "EXPERTS SUGGEST TESTING EVERY DAY",
-            icon: {
-              url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
-              alt: "star icon",
-            },
-          },
+          // icon: {
+          //   url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
+          //   alt: "calendar with all days highlighted icon",
+          // },
+          // badge: {
+          //   label: "EXPERTS SUGGEST TESTING EVERY DAY",
+          //   icon: {
+          //     url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
+          //     alt: "star icon",
+          //   },
+          // },
           nextId: "qB4b_level2_intro_receiver",
         },
         {
@@ -1069,7 +1074,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
-        text: "Concerned Party",
+        text: "What is a Concerned Party?",
       },
       infoLink: {
         type: "lightbox",
@@ -1109,7 +1114,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>the</span> next day",
+            "<span class='u-normal'>I want the test results</span> emailed the next day",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -1127,7 +1132,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1145,7 +1150,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1155,7 +1160,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "INCLUDES 50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -1179,7 +1184,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1197,7 +1202,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1207,7 +1212,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           badge: {
-            label: "50% OFF EXPERT TESTIMONY",
+            label: "INCLUDES 50% OFF EXPERT TESTIMONY",
             icon: {
               url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
               alt: "star icon",
@@ -1267,7 +1272,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
-        text: "Concerned Party",
+        text: "What is a Concerned Party?",
       },
       infoLink: {
         type: "lightbox",
@@ -1307,7 +1312,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>the</span> next day",
+            "<span class='u-normal'>I want the test results</span> emailed the next day",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -1325,7 +1330,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1343,7 +1348,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1377,7 +1382,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1395,7 +1400,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test</span> results emailed and texted <span class='u-normal'>in</span> real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div>",
           priceRef: {
@@ -1449,7 +1454,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
-        text: "Contact",
+        text: "What is a Contact?",
       },
       infoLink: {
         type: "lightbox",
@@ -1489,7 +1494,7 @@ window.quizConfig = {
         {
           value: "emailNextDay",
           labelHtml:
-            "<span class='u-normal'>I want the </span>test results emailed to me the next day",
+            "<span class='u-normal'>I want the test results</span> emailed to me the next day",
           metaHtml:
             "<div style='color: #26BCD7; font-weight: bold;'>Basic Plan</div>",
           priceRef: {
@@ -1507,7 +1512,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed in real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1532,7 +1537,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed and texted in real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceRef: {
@@ -1560,7 +1565,7 @@ window.quizConfig = {
         {
           value: "emailRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed in real time",
+            "<span class='u-normal'>I want the test results</span> emailed in real time",
           metaHtml:
             "<div style='color: #00ABDF; font-weight: bold;'>Plus Plan</div>",
           priceRef: {
@@ -1585,7 +1590,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the</span> test results emailed and texts in real time",
+            "<span class='u-normal'>I want the test results</span> emailed and texts in real time",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceRef: {
@@ -1690,7 +1695,7 @@ window.quizConfig = {
         {
           value: "oneYear",
           labelHtml:
-            "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> one year.",
+            "<span class='u-normal'>I plan to monitor for at least</span> one year.",
           badge: {
             label: "EXPERTS SUGGEST AT LEAST 1 YEAR OF MONITORING",
             icon: {
@@ -1716,7 +1721,7 @@ window.quizConfig = {
         {
           value: "fourMonths",
           labelHtml:
-            "<span class='u-normal'>I plan to</span> monitor <span class='u-normal'>for at least</span> 4 months.",
+            "<span class='u-normal'>I plan to monitor for at least</span> 4 months.",
           metaHtml:
             "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
           subMetaHtml: "Requires a 120-Day Monitoring Commitment",
@@ -2017,7 +2022,6 @@ window.quizConfig = {
         "The best next step is to talk with a specialist who can help tailor a solution.",
       primaryCta: { label: "Done", nextId: null },
     },
-    //to do: this doesn't show.. delete?
     res_final_plan_only_device_by_monitored_client: {
       id: "res_final_plan_only_device_by_monitored_client",
       type: "final",
