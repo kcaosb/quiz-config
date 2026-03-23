@@ -87,7 +87,7 @@ window.quizConfig = {
         url: "https://.../hero.jpg",
         alt: "Help Me Choose",
       },
-      primaryCta: { label: "Start Survey", nextId: "q1_useCase" },
+      primaryCta: { label: "Start", nextId: "q1_useCase" },
     },
     q1_useCase: {
       id: "q1_useCase",
@@ -136,7 +136,7 @@ window.quizConfig = {
       options: [
         {
           value: "childCustody",
-          labelHtml: "Child Custody",
+          labelHtml: "Child Custody (Family Law)",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105e3b251bf554a158_child%20custody.png",
             alt: "Child custody",
@@ -327,7 +327,7 @@ window.quizConfig = {
         {
           value: "everyDay",
           labelHtml:
-            "<span class='u-normal'>I am willing to</span> test every day",
+            "<span class='u-normal'>I am willing or required to</span> test every day",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
@@ -908,7 +908,7 @@ window.quizConfig = {
       options: [
         {
           value: "childCustody",
-          labelHtml: "Child Custody",
+          labelHtml: "Child Custody (Family Law)",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105e3b251bf554a158_child%20custody.png",
             alt: "Child custody",
