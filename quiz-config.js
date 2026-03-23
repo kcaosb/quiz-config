@@ -241,7 +241,8 @@ window.quizConfig = {
     qA3a_proactiveGettingAheadQuote: {
       id: "qA3a_proactiveGettingAheadQuote",
       type: "quote",
-      headlineHtml: "Happy to ‘Prove My Truth’",
+      headlineHtml:
+        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
       subtitleHtml:
         "It was submitted to the courts that my past relationship with alcohol could interfere with my ability to parent. When it becomes someone's word against someone else's word, decisions can be made that aren't always right. Soberlink made it undeniable that the things that I was saying about my own recovery were the truth.",
       person: {
@@ -261,7 +262,8 @@ window.quizConfig = {
     qA3a_proactiveFalselyAccusedQuote: {
       id: "qA3a_proactiveFalselyAccusedQuote",
       type: "quote",
-      headlineHtml: "The Proof Was Already There",
+      headlineHtml:
+        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
       subtitleHtml:
         "My ex-wife hired private investigators to try to catch me drinking while I was with my kids in an attempt to take away my parent rights. When we went to trial, my ex was still saying I had this severe alcohol problem. The judge looked at my 600 compliant Soberlink tests and determined that if I had one, I would have failed some of the tests. There's really indisputable evidence now, that I just don't have a problem with this.",
       person: {
@@ -281,7 +283,8 @@ window.quizConfig = {
     qA3a_proveSoberParentingTimeQuote: {
       id: "qA3a_proveSoberParentingTimeQuote",
       type: "quote",
-      headlineHtml: "Accountability Brought Peace of Mind",
+      headlineHtml:
+        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
       subtitleHtml:
         "I had picked my son up from school and I had been drinking. My husband had reached his limit and ended up filing for divorce. My attorney recommended that I use Soberlink to prove to the court that I was able to be with my children without drinking. It puts my husband's mind at ease knowing that there is that accountability piece. ",
       person: {
@@ -301,7 +304,8 @@ window.quizConfig = {
     qA3a_fullAbstinenceKeepKidsQuote: {
       id: "qA3a_fullAbstinenceKeepKidsQuote",
       type: "quote",
-      headlineHtml: "You Can’t Put a Price on Time With Your Kids",
+      headlineHtml:
+        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
       subtitleHtml:
         "My ex-husband had sole custody of my kids because of my alcohol abuse, and I was only allowed to see them under strict provisions. My parenting plan required alcohol testing. Soberlink is the best alcohol monitoring method there is for someone like me who's seriously alcoholic and needs daily accountability. It's worth every penny. You can't put a price on time with your child.",
       person: {
