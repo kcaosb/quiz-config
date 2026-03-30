@@ -58,7 +58,7 @@ window.quizConfig = {
     contactInfo: {
       titleHtml: "<strong>What is a Contact?</strong>",
       bodyHtml:
-        "A “Contact” is a person who will receive your results. This is typically a family member, friend, or treatment provider.",
+        "A “Contact” is a person who will receive the results. This is typically a family member, friend, or treatment professional.",
     },
     womanStory: {
       titleHtml:
@@ -162,14 +162,6 @@ window.quizConfig = {
             alt: "Relationship",
           },
         },
-        {
-          value: "criminalJustice",
-          labelHtml: "Criminal Justice",
-          icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105c147f90eadeb96f_criminal%20justic.avif",
-            alt: "Criminal justice",
-          },
-        },
       ],
       rules: [
         { whenIncludesAnyOf: ["childCustody"], nextId: "qA3_custody_context" },
@@ -177,20 +169,10 @@ window.quizConfig = {
           whenIncludesAnyOf: ["sobriety", "employment", "marriageRelationship"],
           nextId: "qA3_share_contacts_submitter",
         },
-        {
-          whenOnly: ["criminalJustice"],
-          nextId: "qA2_criminalJustice_end_submitter",
-        },
       ],
       defaultNextId: "qA3_incomplete_other",
     },
-    qA2_criminalJustice_end_submitter: {
-      id: "qA2_criminalJustice_end_submitter",
-      type: "info",
-      textHtml:
-        "Soberlink is designed for family law, treatment, and recovery support. For criminal justice monitoring, we recommend visiting <a href='https://bi.com/' target='_blank' rel='noopener noreferrer'>bi.com</a>.",
-      primaryCta: { label: "Start Over", nextId: null },
-    },
+
     qA3_custody_context: {
       id: "qA3_custody_context",
       type: "singleChoice",
@@ -247,7 +229,7 @@ window.quizConfig = {
       },
       primaryCta: {
         label: "Continue",
-        nextId: "qA4_testingFrequency_submitter",
+        nextId: "qA3_share_contacts_submitter",
       },
     },
     qA3a_proactiveFalselyAccusedQuote: {
@@ -323,16 +305,6 @@ window.quizConfig = {
             },
           },
           nextId: "qA5L2_intro_submitter",
-        },
-        {
-          value: "notEveryDay",
-          labelHtml:
-            "<span class='u-normal'>I</span> don’t need <span class='u-normal'>to</span> test every day",
-          icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106563beec4dbc11d9_icon-parenting-only-testing%201.avif",
-            alt: "calendar icon with only several days highlighted",
-          },
-          nextId: "qA5L1_intro_submitter",
         },
         {
           value: "parentingDaysOnly",
@@ -562,7 +534,7 @@ window.quizConfig = {
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "More info",
-        text: "Concerned Party",
+        text: "What is a Concerned Party?",
       },
       infoLink: {
         type: "lightbox",
@@ -887,7 +859,7 @@ window.quizConfig = {
     qB2_reasons_receiver: {
       id: "qB2_reasons_receiver",
       type: "multiChoice",
-      text: "Check the reason(s) you need monitoring.",
+      text: "Check the reason(s) for need monitoring.",
       options: [
         {
           value: "childCustody",
@@ -903,14 +875,6 @@ window.quizConfig = {
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12e28a4ae509b1f527_sobriety.png",
             alt: "Sobriety",
-          },
-        },
-        {
-          value: "criminalJustice",
-          labelHtml: "Criminal Justice",
-          icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f105c147f90eadeb96f_criminal%20justic.avif",
-            alt: "Criminal justice",
           },
         },
       ],
@@ -929,13 +893,6 @@ window.quizConfig = {
         },
       ],
       defaultNextId: "qB2_incomplete_other",
-    },
-    qB2_criminalJustice_end_receiver: {
-      id: "qB2_criminalJustice_end_receiver",
-      type: "info",
-      textHtml:
-        "Soberlink is designed for family law, treatment, and recovery support. For criminal justice monitoring, we recommend visiting <a href='https://bi.com/' target='_blank' rel='noopener noreferrer'>bi.com</a>.",
-      primaryCta: { label: "Start Over", nextId: null },
     },
     qB2_incomplete_other: {
       id: "qB2_incomplete_other",
@@ -1013,13 +970,6 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10cf15960ad2f62cb4_daily%20testing.avif",
             alt: "calendar with all days highlighted icon",
           },
-          // badge: {
-          //   label: "EXPERTS SUGGEST TESTING EVERY DAY",
-          //   icon: {
-          //     url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6994c2f22b9a7cc99fa25884_Star%20Badge.png",
-          //     alt: "star icon",
-          //   },
-          // },
           nextId: "qB4b_level2_intro_receiver",
         },
         {
@@ -1053,7 +1003,7 @@ window.quizConfig = {
       id: "qB6_level2_shareScope_receiver",
       type: "singleChoice",
       introText:
-        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
+        "To keep everyone informed, the results must be shared with a “Concerned Party.”",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
@@ -1590,20 +1540,7 @@ window.quizConfig = {
         },
       ],
     },
-    qDeviceIntro_generic: {
-      id: "qDeviceIntro_generic",
-      type: "info",
-      textHtml:
-        "Your Monitored Client will be able to choose their Device.<br><br>" +
-        "Devices start at {RENT_START}<span style='font-size: 13px;'>/mo</span> to rent or {BUY_START} to buy.<br><br>" +
-        "Soberlink is the ultimate investment in safety and trust - because peace of mind is priceless.<br><br>" +
-        "Device - Monitored Client to Choose",
-      textTokens: {
-        RENT_START: { kind: "deviceMin", commitment: "rent 365" },
-        BUY_START: { kind: "deviceMin", commitment: "buy" },
-      },
-      primaryCta: { label: "Continue", nextId: "qD1_paymentPreference" },
-    },
+
     qD1_paymentPreference: {
       id: "qD1_paymentPreference",
       type: "singleChoice",
