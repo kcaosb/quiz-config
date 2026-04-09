@@ -919,7 +919,7 @@ window.quizConfig = {
     },
     qB3a_monitoredClientIntro_receiver: {
       id: "qB3a_monitoredClientIntro_receiver",
-      type: "info",
+      type: "definition",
       headlineHtml: "<span style='color: #00abdf;'>Definition to Know</span>",
       textHtml:
         "The <span class='u-bold'>Monitored Client</span> is the person submitting Soberlink tests.",
