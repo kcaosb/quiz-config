@@ -296,7 +296,7 @@ window.quizConfig = {
       id: "qA5L2_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 16px;'>We suggest our</span><br/><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
+        "<span style='font-size: 16px;'>We suggest our</span><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
       textHtml:
         "<span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
       imageUrl:
@@ -467,7 +467,7 @@ window.quizConfig = {
       id: "qA5L1_intro_submitter",
       type: "info",
       headlineHtml:
-        "<span style='font-weight: bold; font-size: 16px;'>We suggest our</span><br/><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program</span>",
+        "<span style='font-size: 16px;'>We suggest our</span><br/> <span style='color: #00abdf;'>Level 1 - Parenting Time Only Program</span>",
       textHtml:
         "<span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
