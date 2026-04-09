@@ -178,15 +178,6 @@ window.quizConfig = {
       type: "singleChoice",
       text: "We’ll tailor a plan that best fits your needs. Which option feels most like your situation?",
       options: [
-        // {
-        //   value: "proactiveGettingAhead",
-        //   labelHtml: "I am getting ahead of the game",
-        //   icon: {
-        //     url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10ef2493addcafbb32_icon%20ahead.png",
-        //     alt: "arrow icon",
-        //   },
-        //   nextId: "qA3a_proactiveGettingAheadQuote",
-        // },
         {
           value: "proactiveFalselyAccused",
           labelHtml: "I am being falsely accused or preparing for a case",
@@ -232,23 +223,6 @@ window.quizConfig = {
         nextId: "qA4_testingFrequency_submitter",
       },
     },
-    // qA3a_proactiveFalselyAccusedQuote: {
-    //   id: "qA3a_proactiveFalselyAccusedQuote",
-    //   type: "quote",
-    //   headlineHtml:
-    //     "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
-    //   subtitleHtml:
-    //     "My ex-wife hired private investigators to try to catch me drinking while I was with my kids in an attempt to take away my parent rights. When we went to trial, my ex was still saying I had this severe alcohol problem. The judge looked at my 600 compliant Soberlink tests and determined that if I had one, I would have failed some of the tests. There's really indisputable evidence now, that I just don't have a problem with this.",
-    //   person: {
-    //     name: "Dustin",
-    //     attribution: "Soberlink Client",
-    //   },
-
-    //   primaryCta: {
-    //     label: "Continue",
-    //     nextId: "qA4_testingFrequency_submitter",
-    //   },
-    // },
     qA3a_proveSoberParentingTimeQuote: {
       id: "qA3a_proveSoberParentingTimeQuote",
       type: "quote",
