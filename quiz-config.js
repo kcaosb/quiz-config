@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-04-09",
+  version: "2026-03-17",
   startId: "intro_start",
   activeConnectVariant: "s7", //use s7 when 7.0 is live, use connect when Connect is live
   deviceVariants: {
@@ -207,12 +207,12 @@ window.quizConfig = {
         },
         {
           value: "fullAbstinenceKeepKids",
-          labelHtml: "I need full abstinence in order to keep my kids",
+          labelHtml: "I need to prove that I am sober every day",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f106ab22d06aa2f7922_Abstinence.png",
             alt: "stop sign",
           },
-          nextId: "qA3a_fullAbstinenceKeepKidsQuote",
+          nextId: "qA5L2_intro_submitter",
         },
       ],
     },
