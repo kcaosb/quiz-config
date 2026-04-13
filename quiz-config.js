@@ -34,21 +34,21 @@ window.quizConfig = {
       items: [
         {
           img: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c064cf0e351e1acb69b9_CP-Coparent.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd75d9e724d5149dfe7fa4_cp-2.avif",
             alt: "Co-parent",
           },
           labelHtml: "Co-parent",
         },
         {
           img: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c0644474bd8f9e369a71_CP-Guardian.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd75d9415ffa7178741b99_cp-1.avif",
             alt: "Guardian",
           },
           labelHtml: "Guardian",
         },
         {
           img: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8c0627a7727e14ddfca53_CP-Attorney.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd75d9b525cb2e87077014_cp-3.avif",
             alt: "Attorney",
           },
           labelHtml: "Attorney",
