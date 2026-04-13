@@ -94,7 +94,7 @@ window.quizConfig = {
           value: "submitTests",
           labelHtml: "I will be submitting tests.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd6318132ce438a04d42b1_Icon-Device-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bbdcbd0ec72e582683_Icon-cellular-device-v2.avif",
             alt: "device icon",
           },
           nextId: "qA2_reasons_submitter",
