@@ -361,7 +361,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
           },
           nextId: "res_plan_level2_basic",
@@ -379,7 +379,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
           },
           nextId: "res_plan_level2_plus",
@@ -404,7 +404,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
@@ -431,7 +431,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level2_plus",
@@ -456,7 +456,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
@@ -558,7 +558,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
           },
           nextId: "res_plan_level1_basic",
@@ -576,7 +576,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level1_plus",
@@ -601,7 +601,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level1_premium",
@@ -628,7 +628,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
           },
           nextId: "res_plan_level1_plus",
@@ -646,7 +646,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           badge: {
@@ -718,7 +718,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_share_basic",
@@ -743,7 +743,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_share_plus",
@@ -761,7 +761,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_share_premium",
@@ -796,7 +796,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "Email",
           },
           nextId: "res_plan_share_plus",
@@ -814,7 +814,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "Email and phone",
           },
           nextId: "res_plan_share_premium",
@@ -1031,7 +1031,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level2_basic",
@@ -1049,7 +1049,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level2_plus",
@@ -1074,7 +1074,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
@@ -1101,7 +1101,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level2_plus",
@@ -1126,7 +1126,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level2_premium",
@@ -1229,7 +1229,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level1_basic",
@@ -1247,7 +1247,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level1_plus",
@@ -1272,7 +1272,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level1_premium",
@@ -1299,7 +1299,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_level1_plus",
@@ -1324,7 +1324,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_level1_premium",
@@ -1411,7 +1411,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_share_basic",
@@ -1436,7 +1436,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_share_plus",
@@ -1454,7 +1454,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_share_premium",
@@ -1489,7 +1489,7 @@ window.quizConfig = {
             },
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63186d96d5095df94446_icon-email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6997575bd49dc41957839c61_f2c3c9178285fcd006d9507be8b5c7436be30ec5.avif",
             alt: "email",
           },
           nextId: "res_plan_share_plus",
@@ -1507,7 +1507,7 @@ window.quizConfig = {
             cadence: "mo",
           },
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69dd63185aa0b8e91b5022e9_Icon-Text-Alert-Phone-Email-2.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a8be106bfef5f023b220ca_Icon-Text-Alert-Phone-Email.avif",
             alt: "email and phone",
           },
           nextId: "res_plan_share_premium",
