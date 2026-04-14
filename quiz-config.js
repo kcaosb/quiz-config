@@ -307,7 +307,7 @@ window.quizConfig = {
       id: "qA6L2_shareScope_submitter",
       type: "singleChoice",
       introText:
-        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
+        "To keep everyone informed, your results must be shared with a “Concerned Party”.",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
@@ -820,15 +820,6 @@ window.quizConfig = {
         },
       ],
     },
-    // qA3_incomplete_other: {
-    //   id: "qA3_incomplete_other",
-    //   type: "info",
-    //   text: "[TODO] Employment / Marriage / Criminal Justice routes not yet defined.",
-    //   primaryCta: {
-    //     label: "Contact us for help choosing",
-    //     nextId: "res_generic_contact",
-    //   },
-    // },
     qB2_reasons_receiver: {
       id: "qB2_reasons_receiver",
       type: "multiChoice",
@@ -860,22 +851,10 @@ window.quizConfig = {
           whenIncludesAnyOf: ["proofOfSobriety"],
           nextId: "qB3_share_storyIntro",
         },
-        {
-          whenOnly: ["criminalJustice"],
-          nextId: "qB2_criminalJustice_end_receiver",
-        },
       ],
       // defaultNextId: "qB2_incomplete_other",
     },
-    // qB2_incomplete_other: {
-    //   id: "qB2_incomplete_other",
-    //   type: "info",
-    //   text: "[TODO] Receiver route not yet defined for this combination.",
-    //   primaryCta: {
-    //     label: "Contact us for help choosing",
-    //     nextId: "res_generic_contact",
-    //   },
-    // },
+
     qB3_custody_storyIntro: {
       id: "qB3_custody_storyIntro",
       type: "stories",
@@ -960,7 +939,7 @@ window.quizConfig = {
       id: "qB4b_level2_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client needs to test everyday,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
+        "<span style='font-size: 20px;'>Because your <span class='u-bold'>Monitored Client needs to test everyday,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 2 - Daily Testing Program</span>",
       textHtml:
         "<span style='font-size: 16px;'>Consistent monitoring, 7 days a week. Testing schedules managed by Soberlink.</span>",
       imageUrl:
@@ -1135,7 +1114,7 @@ window.quizConfig = {
       id: "qB4b_level1_intro_receiver",
       type: "info",
       headlineHtml:
-        "<span style='font-size: 24px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span>",
+        "<span style='font-size: 20px;'>Because your <span class='u-bold'>Monitored Client only needs to test on parenting days,</span> we suggest our:</span><br/><br/><span style='color: #00abdf;'>Level 1 - Parenting Time Only Program.</span>",
       textHtml:
         "<span style='font-size: 16px;'>This plan allows you to test only on days that you need to show proof of sobriety.</span>",
       imageUrl:
@@ -1173,7 +1152,7 @@ window.quizConfig = {
       id: "qB6_shareScope_receiver",
       type: "singleChoice",
       introText:
-        "To keep everyone informed, your results must be shared with a “Concerned Party.”",
+        "To keep everyone informed, your results must be shared with a “Concerned Party”.",
       infoIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a9fcbcf5cd846f8b7e504b_icon%20info.png",
         alt: "Info icon",
@@ -1188,7 +1167,7 @@ window.quizConfig = {
         {
           value: "onlyMe",
           labelHtml:
-            "<span class='u-normal'>The</span> results only  <span class='u-normal'>need to be</span> shared with me, <span class='u-normal'>the Concerned Party.</span>",
+            "<span class='u-normal'>The</span> results only <span class='u-normal'>need to be</span> shared with me, <span class='u-normal'>the Concerned Party.</span>",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
             alt: "one person",
@@ -1906,14 +1885,6 @@ window.quizConfig = {
       },
       nextId: "postPlan_router",
     },
-    // res_generic_contact: {
-    //   id: "res_generic_contact",
-    //   type: "info",
-    //   text:
-    //     "Your situation doesn’t fit neatly into one of our standard paths yet.\n\n" +
-    //     "The best next step is to talk with a specialist who can help tailor a solution.",
-    //   primaryCta: { label: "Done", nextId: null },
-    // },
     res_final_plan_only_device_by_monitored_client: {
       id: "res_final_plan_only_device_by_monitored_client",
       type: "final",
@@ -1921,14 +1892,6 @@ window.quizConfig = {
       planFromPlan: true,
       device: "Monitored Client to Choose",
       pricing: null,
-      // text:
-      //   "Our Recommendation\n\n" +
-      //   "You've poured your heart into making this work. Soberlink turns promises into proof, giving trust a solid foundation—because what you’ve built is worth it.\n\n" +
-      //   "LEVEL, PLAN,\n" +
-      //   "PRICING\n\n" +
-      //   "Device\n" +
-      //   "Monitored Client to Choose\n\n" +
-      //   "Email Recommendations »",
       deviceIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69b1d7bcc03ce6233af92e9f_Icon-Unchoosen-Device.avif",
         alt: "Unchosen Device",
@@ -1952,19 +1915,12 @@ window.quizConfig = {
         devicePriceSuffix: " (one-time purchase)",
         commitment: "no minimum plan commitment required",
       },
-      // text:
-      //   "Our Recommendation\n\n" +
-      //   "Soberlink is the ultimate investment in safety and trust—because time with your kids is priceless.\n\n" +
-      //   "LEVEL & PLAN (from your previous selection),\n" +
-      //   "CONNECT + PRICING.\n\n" +
-      //   "Add to Cart »  |  Email Recommendations »",
       deviceIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ec5c894c7fd201e4d4_connect-dec-tree-100px-w.avif",
         alt: "Connect Device",
       },
       nextId: null,
     },
-
     res_final_own_cellular2: {
       id: "res_final_own_cellular2",
       type: "final",
@@ -1982,12 +1938,7 @@ window.quizConfig = {
         devicePriceSuffix: " (one-time purchase)",
         commitment: "no minimum plan commitment required",
       },
-      // text:
-      //   "Our Recommendation\n\n" +
-      //   "Soberlink is the ultimate investment in safety and trust—because time with your kids is priceless.\n\n" +
-      //   "LEVEL & PLAN (from your previous selection),\n" +
-      //   "CELLULAR 2 + PRICING.\n\n" +
-      //   "Add to Cart »  |  Email Recommendations »",
+
       deviceIcon: {
         url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6887f2ecf01bc5160d57ba58_cellular-2-dec-tree-100px-w.avif",
         alt: "Cellular 2 Device",
