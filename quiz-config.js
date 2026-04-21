@@ -70,7 +70,7 @@ window.quizConfig = {
       videoUrl: "https://www.youtube.com/embed/C6nturMK390",
     },
     maxAndCami: {
-      titleHtml: "Max and Cami's Story",
+      titleHtml: "How One Couple Rebuilt Trust After Addiction with Soberlink",
       videoUrl: "https://www.youtube.com/embed/QrmptnNaV7A",
     },
     emailResults: {
