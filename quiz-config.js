@@ -1,7 +1,7 @@
 window.quizConfig = {
-  version: "2026-03-17",
+  version: "2026-04-27",
   startId: "intro_start",
-  activeConnectVariant: "s7", //use s7 when 7.0 is live, use connect when Connect is live
+  activeConnectVariant: "s7",
   deviceVariants: {
     connect: {
       connect: {
@@ -120,15 +120,15 @@ window.quizConfig = {
         },
         {
           whenEquals: { nodeId: "q1_useCase", value: "receiveResults" },
-          nextId: "res_final_plan_only_device_by_monitored_client",
+          nextId: "qB_devicePurchaser",
         },
       ],
-      defaultNextId: "res_final_plan_only_device_by_monitored_client",
+      defaultNextId: "qB_devicePurchaser",
     },
     qA2_reasons_submitter: {
       id: "qA2_reasons_submitter",
       type: "multiChoice",
-      text: "Select the reason(s) you need monitoring.",
+      text: "Select <span class='u-bold' style='color: #00abdf;'>all</span> the reason(s) you need monitoring. You can select multiple.",
       options: [
         {
           value: "childCustody",
@@ -139,11 +139,11 @@ window.quizConfig = {
           },
         },
         {
-          value: "sobriety",
-          labelHtml: "Sobriety",
+          value: "marriageRelationship",
+          labelHtml: "Marriage/Relationship",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12e28a4ae509b1f527_sobriety.png",
-            alt: "Sobriety",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10e36776c1e40d98f8_marriage%20relationships.png",
+            alt: "Relationship",
           },
         },
         {
@@ -155,18 +155,31 @@ window.quizConfig = {
           },
         },
         {
-          value: "marriageRelationship",
-          labelHtml: "Marriage/Relationship",
+          value: "voluntaryAccountability",
+          labelHtml: "Voluntary/Accountability",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10e36776c1e40d98f8_marriage%20relationships.png",
-            alt: "Relationship",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            alt: "Voluntary",
+          },
+        },
+        {
+          value: "other",
+          labelHtml: "Other",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            alt: "Other",
           },
         },
       ],
       rules: [
         { whenIncludesAnyOf: ["childCustody"], nextId: "qA3_custody_context" },
         {
-          whenIncludesAnyOf: ["sobriety", "employment", "marriageRelationship"],
+          whenIncludesAnyOf: [
+            "employment",
+            "marriageRelationship",
+            "voluntaryAccountability",
+            "other",
+          ],
           nextId: "qA3_share_contacts_submitter",
         },
       ],
@@ -185,7 +198,7 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f1061c8412f197bf530_Accused.png",
             alt: "thumbs down",
           },
-          nextId: "qA3a_proactiveFalselyAccusedQuote",
+          nextId: "qA4_testingFrequency_submitter",
         },
         {
           value: "proveSoberParentingTime",
@@ -194,7 +207,7 @@ window.quizConfig = {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f127fc27e2065acf64e_Sober%20PT.png",
             alt: "person and check icons",
           },
-          nextId: "qA3a_proveSoberParentingTimeQuote",
+          nextId: "qA4_testingFrequency_submitter",
         },
         {
           value: "fullAbstinenceKeepKids",
@@ -207,56 +220,56 @@ window.quizConfig = {
         },
       ],
     },
-    qA3a_proactiveFalselyAccusedQuote: {
-      id: "qA3a_proactiveFalselyAccusedQuote",
-      type: "quote",
-      headlineHtml:
-        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
-      subtitleHtml:
-        "It was submitted to the courts that my past relationship with alcohol could interfere with my ability to parent. When it becomes someone's word against someone else's word, decisions can be made that aren't always right. Soberlink made it undeniable that the things that I was saying about my own recovery were the truth.",
-      person: {
-        name: "Evan",
-        attribution: "Soberlink Client",
-      },
-      primaryCta: {
-        label: "Continue",
-        nextId: "qA4_testingFrequency_submitter",
-      },
-    },
-    qA3a_proveSoberParentingTimeQuote: {
-      id: "qA3a_proveSoberParentingTimeQuote",
-      type: "quote",
-      headlineHtml:
-        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
-      subtitleHtml:
-        "I had picked my son up from school and I had been drinking. My husband had reached his limit and ended up filing for divorce. My attorney recommended that I use Soberlink to prove to the court that I was able to be with my children without drinking. It puts my husband's mind at ease knowing that there is that accountability piece.",
-      person: {
-        name: "Sarah",
-        attribution: "Soberlink Client",
-      },
+    // qA3a_proactiveFalselyAccusedQuote: {
+    //   id: "qA3a_proactiveFalselyAccusedQuote",
+    //   type: "quote",
+    //   headlineHtml:
+    //     "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
+    //   subtitleHtml:
+    //     "It was submitted to the courts that my past relationship with alcohol could interfere with my ability to parent. When it becomes someone's word against someone else's word, decisions can be made that aren't always right. Soberlink made it undeniable that the things that I was saying about my own recovery were the truth.",
+    //   person: {
+    //     name: "Evan",
+    //     attribution: "Soberlink Client",
+    //   },
+    //   primaryCta: {
+    //     label: "Continue",
+    //     nextId: "qA4_testingFrequency_submitter",
+    //   },
+    // },
+    // qA3a_proveSoberParentingTimeQuote: {
+    //   id: "qA3a_proveSoberParentingTimeQuote",
+    //   type: "quote",
+    //   headlineHtml:
+    //     "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
+    //   subtitleHtml:
+    //     "I had picked my son up from school and I had been drinking. My husband had reached his limit and ended up filing for divorce. My attorney recommended that I use Soberlink to prove to the court that I was able to be with my children without drinking. It puts my husband's mind at ease knowing that there is that accountability piece.",
+    //   person: {
+    //     name: "Sarah",
+    //     attribution: "Soberlink Client",
+    //   },
 
-      primaryCta: {
-        label: "Continue",
-        nextId: "qA4_testingFrequency_submitter",
-      },
-    },
-    qA3a_fullAbstinenceKeepKidsQuote: {
-      id: "qA3a_fullAbstinenceKeepKidsQuote",
-      type: "quote",
-      headlineHtml:
-        "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
-      subtitleHtml:
-        "My ex-husband had sole custody of my kids because of my alcohol abuse, and I was only allowed to see them under strict provisions. My parenting plan required alcohol testing. Soberlink is the best alcohol monitoring method there is for someone like me who's seriously alcoholic and needs daily accountability. It's worth every penny. You can't put a price on time with your child.",
-      person: {
-        name: "Krista",
-        attribution: "Soberlink Client",
-      },
+    //   primaryCta: {
+    //     label: "Continue",
+    //     nextId: "qA4_testingFrequency_submitter",
+    //   },
+    // },
+    // qA3a_fullAbstinenceKeepKidsQuote: {
+    //   id: "qA3a_fullAbstinenceKeepKidsQuote",
+    //   type: "quote",
+    //   headlineHtml:
+    //     "You're not alone.<br/>Many people have used Soberlink for the same reason. <br/><br/>Here's a story from a real Soberlink client:",
+    //   subtitleHtml:
+    //     "My ex-husband had sole custody of my kids because of my alcohol abuse, and I was only allowed to see them under strict provisions. My parenting plan required alcohol testing. Soberlink is the best alcohol monitoring method there is for someone like me who's seriously alcoholic and needs daily accountability. It's worth every penny. You can't put a price on time with your child.",
+    //   person: {
+    //     name: "Krista",
+    //     attribution: "Soberlink Client",
+    //   },
 
-      primaryCta: {
-        label: "Continue",
-        nextId: "qA4_testingFrequency_submitter",
-      },
-    },
+    //   primaryCta: {
+    //     label: "Continue",
+    //     nextId: "qA4_testingFrequency_submitter",
+    //   },
+    // },
     qA4_testingFrequency_submitter: {
       id: "qA4_testingFrequency_submitter",
       type: "singleChoice",
@@ -823,7 +836,7 @@ window.quizConfig = {
     qB2_reasons_receiver: {
       id: "qB2_reasons_receiver",
       type: "multiChoice",
-      text: "Check the reason(s) for need monitoring.",
+      text: "Select <span class='u-bold' style='color: #00abdf;'>all</span> the reason(s) you need monitoring. You can select multiple.",
       options: [
         {
           value: "childCustody",
@@ -834,11 +847,35 @@ window.quizConfig = {
           },
         },
         {
-          value: "proofOfSobriety",
-          labelHtml: "Proof of Sobriety",
+          value: "marriageRelationship",
+          labelHtml: "Marriage/Relationship",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12e28a4ae509b1f527_sobriety.png",
-            alt: "Sobriety",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f10e36776c1e40d98f8_marriage%20relationships.png",
+            alt: "Relationship",
+          },
+        },
+        {
+          value: "employment",
+          labelHtml: "Employment",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            alt: "Employment",
+          },
+        },
+        {
+          value: "voluntaryAccountability",
+          labelHtml: "Voluntary/Accountability",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            alt: "Voluntary",
+          },
+        },
+        {
+          value: "other",
+          labelHtml: "Other",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            alt: "Other",
           },
         },
       ],
@@ -848,7 +885,12 @@ window.quizConfig = {
           nextId: "qB3_custody_storyIntro",
         },
         {
-          whenIncludesAnyOf: ["proofOfSobriety"],
+          whenIncludesAnyOf: [
+            "employment",
+            "marriageRelationship",
+            "voluntaryAccountability",
+            "other",
+          ],
           nextId: "qB3_share_storyIntro",
         },
       ],
@@ -1501,7 +1543,7 @@ window.quizConfig = {
         {
           value: "rent",
           labelHtml:
-            "<div style='margin-bottom: 5px;'>Rent My Device <span class='u-normal'>from</span> {PRICE}<span style='font-size: 13px;'>/mo</span></div> <ul class='u-normal' style='font-size: 14px;'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul><span style='color: #888; font-size: 10px;'>ONLY AVAILABLE TO SHIP IN THE U.S.</span>",
+            "<div style='margin-bottom: 5px;'>Rent the Device <span class='u-normal'>from</span> {PRICE}<span style='font-size: 13px;'>/mo</span></div> <ul class='u-normal' style='font-size: 14px;'><li>Low monthly payment</li><li>No upfront device costs</li><li>Requires a monitoring plan commitment</li></ul>",
           priceRef: { kind: "deviceMin", commitment: "rent 365" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a74e856cfb277a88a9ea3f_rent.avif",
@@ -1512,7 +1554,7 @@ window.quizConfig = {
         {
           value: "own",
           labelHtml:
-            "<div style='margin-bottom: 5px;'>Own My Device <span class='u-normal'>from</span> {PRICE}</div> <ul class='u-normal' style='font-size: 14px;'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
+            "<div style='margin-bottom: 5px;'>Own the Device <span class='u-normal'>from</span> {PRICE}</div> <ul class='u-normal' style='font-size: 14px;'><li>One-time purchase</li><li>Higher upfront costs</li><li>No Minimum Plan Commitment Required</li></ul>",
           priceRef: { kind: "deviceMin", commitment: "buy" },
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69a74e8505f049feec68cc6e_buy.avif",
@@ -1610,6 +1652,33 @@ window.quizConfig = {
         },
       ],
     },
+    qB_devicePurchaser: {
+      id: "qB_devicePurchaser",
+      type: "singleChoice",
+      text: "Who will be purchasing the Soberlink Device?",
+      options: [
+        {
+          value: "receiverWillPurchase",
+          labelHtml:
+            "<span class='u-bold'>I will be purchasing</span> the Soberlink Device for my Monitored Client.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
+            alt: "one person",
+          },
+          nextId: "qD1_paymentPreference",
+        },
+        {
+          value: "monitoredClientWillPurchase",
+          labelHtml:
+            "<span class='u-bold'>The Monitored Client will be purchasing</span> the Soberlink Device.",
+          icon: {
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
+            alt: "two people",
+          },
+          nextId: "res_final_plan_only_device_by_monitored_client",
+        },
+      ],
+    },
   },
   planFooters: {
     submitter: {
@@ -1623,7 +1692,7 @@ window.quizConfig = {
     receiver: {
       textHtml: `
         <div style="text-align: left; font-size: 16px;">
-          Your Monitored Client will be able to choose their Device.<br><br>
+          Your Monitored Client will be able to choose their Device, or you can purchase on their behalf.<br><br>
           <span class='u-bold'>Devices</span> start at 
           <span class='u-bold'>{RENT_START}<span style='font-size: 14px;'>/mo</span></span> 
           to rent <span class='u-bold'>or {BUY_START}</span> to buy.
@@ -1633,7 +1702,7 @@ window.quizConfig = {
         RENT_START: { kind: "deviceMin", commitment: "rent 365" },
         BUY_START: { kind: "deviceMin", commitment: "buy" },
       },
-      ctaLabel: "See Results",
+      ctaLabel: "Next",
     },
   },
   results: {
