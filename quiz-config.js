@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-04-27",
+  version: "2026-05-04",
   startId: "intro_start",
   activeConnectVariant: "s7",
   deviceVariants: {
@@ -158,7 +158,7 @@ window.quizConfig = {
           value: "voluntaryAccountability",
           labelHtml: "Voluntary/Accountability",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8e2b32a01c4581c6a45_icon-volunteer-1.avif",
             alt: "Voluntary",
           },
         },
@@ -166,7 +166,7 @@ window.quizConfig = {
           value: "other",
           labelHtml: "Other",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8d590a27202acfb89e1_icon-other.avif",
             alt: "Other",
           },
         },
@@ -836,7 +836,7 @@ window.quizConfig = {
     qB2_reasons_receiver: {
       id: "qB2_reasons_receiver",
       type: "multiChoice",
-      text: "Select <span class='u-bold' style='color: #00abdf;'>all</span> the reason(s) you need monitoring. You can select multiple.",
+      text: "Select <span class='u-bold' style='color: #00abdf;'>all</span> the reason(s) for monitoring. You can select multiple.",
       options: [
         {
           value: "childCustody",
@@ -866,7 +866,7 @@ window.quizConfig = {
           value: "voluntaryAccountability",
           labelHtml: "Voluntary/Accountability",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8e2b32a01c4581c6a45_icon-volunteer-1.avif",
             alt: "Voluntary",
           },
         },
@@ -874,7 +874,7 @@ window.quizConfig = {
           value: "other",
           labelHtml: "Other",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69810f12c0c3add2adbd0a08_work.png",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8d590a27202acfb89e1_icon-other.avif",
             alt: "Other",
           },
         },
@@ -1660,7 +1660,7 @@ window.quizConfig = {
         {
           value: "receiverWillPurchase",
           labelHtml:
-            "<span class='u-bold'>I will be purchasing</span> the Soberlink Device for my Monitored Client.",
+            "<span class='u-normal'>I will be purchasing</span> the Soberlink Device for my Monitored Client.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
             alt: "one person",
@@ -1670,7 +1670,7 @@ window.quizConfig = {
         {
           value: "monitoredClientWillPurchase",
           labelHtml:
-            "<span class='u-bold'>The Monitored Client will be purchasing</span> the Soberlink Device.",
+            "<span class='u-normal'>The Monitored Client will be purchasing</span> the Soberlink Device.",
           icon: {
             url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
             alt: "two people",
