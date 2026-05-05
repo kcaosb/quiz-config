@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-05-04",
+  version: "2026-04-27",
   startId: "intro_start",
   activeConnectVariant: "s7",
   deviceVariants: {
@@ -166,7 +166,7 @@ window.quizConfig = {
           value: "other",
           labelHtml: "Other",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8d590a27202acfb89e1_icon-other.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69fa62f67e70f42de93f514e_other_icon_30px_antialiased.png",
             alt: "Other",
           },
         },
@@ -874,7 +874,7 @@ window.quizConfig = {
           value: "other",
           labelHtml: "Other",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69f8f8d590a27202acfb89e1_icon-other.avif",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/69fa62f67e70f42de93f514e_other_icon_30px_antialiased.png",
             alt: "Other",
           },
         },
