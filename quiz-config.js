@@ -1662,8 +1662,8 @@ window.quizConfig = {
           labelHtml:
             "<span class='u-normal'>I will be purchasing</span> the Soberlink Device for my Monitored Client.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd4bad2f8d698ab385_One%20Person.png",
-            alt: "one person",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6a0202c160b049c65efd3223_Icon-I-Buy-Device.avif",
+            alt: "Black and white icon of a hand inserting a rectangular card into a vertical slot device",
           },
           nextId: "qD1_paymentPreference",
         },
@@ -1672,8 +1672,8 @@ window.quizConfig = {
           labelHtml:
             "<span class='u-normal'>The Monitored Client will be purchasing</span> the Soberlink Device.",
           icon: {
-            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/698131dd9b14c609f0ac6f6f_Two%20People%20%2B.png",
-            alt: "two people",
+            url: "https://cdn.prod.website-files.com/5f001b69b01d2658098e3f5c/6a0202c12fe695d0a95bd0c6_Icon-You-Buy-Device.avif",
+            alt: "Icon of a hand holding a card next to a person symbol",
           },
           nextId: "res_final_plan_only_device_by_monitored_client",
         },
