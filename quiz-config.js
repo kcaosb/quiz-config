@@ -1516,7 +1516,7 @@ window.quizConfig = {
         {
           value: "emailTextRealtime",
           labelHtml:
-            "<span class='u-normal'>I want the test results</span> emailed and texts in real time.",
+            "<span class='u-normal'>I want the test results</span> emailed and texted in real time.",
           metaHtml:
             "<div style='color: #1C4A82; font-weight: bold;'>Premium Plan</div> ",
           priceRef: {
