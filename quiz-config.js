@@ -1,6 +1,6 @@
 window.quizConfig = {
   version: "2026-04-27",
-  startId: "intro_start",
+  startId: "q1_useCase",
   activeConnectVariant: "s7",
   deviceVariants: {
     connect: {
