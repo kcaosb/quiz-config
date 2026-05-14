@@ -1537,7 +1537,7 @@ window.quizConfig = {
     qD1_paymentPreference: {
       id: "qD1_paymentPreference",
       type: "singleChoice",
-      text: "Which payment method do you prefer?",
+      text: "Which option do you prefer?",
       size: "xxlg",
       options: [
         {
