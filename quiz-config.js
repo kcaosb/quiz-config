@@ -1,5 +1,5 @@
 window.quizConfig = {
-  version: "2026-04-27",
+  version: "2026-06-02",
   startId: "q1_useCase",
   activeConnectVariant: "s7",
   deviceVariants: {
@@ -1618,7 +1618,7 @@ window.quizConfig = {
           },
           metaHtml:
             "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
-          subMetaHtml: "Requires a 365-Day Monitoring Commitment",
+          subMetaHtml: "Requires a 365-Day Monitoring Commitment<br/><span style='color: #00abdf;'>Smartphone required</span>",
           priceRef: {
             kind: "device",
             device: "connect",
@@ -1637,7 +1637,7 @@ window.quizConfig = {
             "<span class='u-normal'>I plan to monitor for at least</span> 4 months.",
           metaHtml:
             "<div style='font-size: 16px;'>{CONNECT_FAMILY_LABEL} Device</div>",
-          subMetaHtml: "Requires a 120-Day Monitoring Commitment",
+          subMetaHtml: "Requires a 120-Day Monitoring Commitment<br/><span style='color: #00abdf;'>Smartphone required</span>",
           priceRef: {
             kind: "device",
             device: "connect",
