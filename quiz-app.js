@@ -33,7 +33,7 @@ const { createApp, reactive } = Vue;
         howHearRC: "",
         bagModalError: "",
         bagModalState: "form",
-        terms: "false",
+        terms: false,
         otherText: "",
         sessionId: "",
 
